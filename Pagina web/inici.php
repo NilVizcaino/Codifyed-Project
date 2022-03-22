@@ -11,17 +11,6 @@ body{
   background-color:white
 }
 
-#logofira{
-  display:block;
-  position:absolute;
-  width:320px;
-  height:320px;
-  background-color: transparent;
-  transform:translate(10%, -60%);
-  cursor:pointer;
-  transition: all 400ms ease;
-}
-
 #logolletres{
   display:block;
   position:absolute;
@@ -55,8 +44,6 @@ body{
   border: none;
   outline: hidden;
 }
-
-
 
   </style>
   <body>

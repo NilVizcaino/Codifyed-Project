@@ -13,34 +13,6 @@
   <p>
     Cras porttitor enim sit amet nisl sagittis, eget molestie turpis dignissim. Praesent nec massa porttitor, posuere mi eu, commodo orci. Vivamus imperdiet mauris ut venenatis tincidunt. Suspendisse id pretium lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vitae molestie est. Aliquam lectus felis, faucibus nec porta ac, ullamcorper ac dolor. Quisque eu urna volutpat, vehicula sem hendrerit, semper felis. Proin orci risus, elementum ut placerat nec, porta at enim. Aliquam at dictum elit.
   </p>
-  <ol type="I">
-    <li id="ai">Lorem Ipsum </li>
-    <li>Lorem Ipsum </li>
-    <li id="bi">Lorem Ipsum </li>
-    <li>Lorem Ipsum </li>
-  </ol>
-
-  <ol type="a">
-    <li id="ci">Lorem Ipsum </li>
-    <li>Lorem Ipsum </li>
-    <li id="di">Lorem Ipsum </li>
-  </ol>
-
-  <ul>
-    <li>lorem ipsum</li>
-    <li id="ei">lorem
-    <ul type="circle">
-      <li>ipsum</li>
-      <li>ipsum</li>
-    </ul>
-    </li>
-    <li>lorem
-      <ul type="square">
-        <li>ipsum</li>
-        <li>ipsum</li>
-      </ul>
-    </li>
-  </ul>
 
   <div>
     <button id="uno" type="buttom">lore ipsum</button>
@@ -51,18 +23,10 @@
   <div>
     <button id="tres" type="buttom">lore ipsum</button>
   </div>
-  <input id="cuatro" type="checkbox"  />
-  <input id="cinco" type="text" />
   <input id="seis" type="email" />
   <input id="siete" type="password"/>
-  <label class="container">
-  <input type="radio" checked="checked" name="radio" />
-  <span class="checkmark"></span>
 </label>
-<label class="container">
-  <input type="radio" name="radio" />
-  <span class="checkmark"></span>
-</label>
+
 </article>
 </section>
 <?php include('footer.php') ?>
