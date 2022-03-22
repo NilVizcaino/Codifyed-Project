@@ -7,10 +7,9 @@
 
 :root{
   --blanc:#FFFFFF;
-  --clar:#F4F6F7;
-  --gris:#C4C4C4;
+  --verd:#47DD2E;
   --negre:#000000;
-  --taronja:#EF8354;
+  --turquessa:#2EDD8F;
 }
 
 header, section{
