@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Josefin+Sans:wght@200&family=Lora&family=Roboto+Serif:wght@100&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&=Anton&family=Bebas+Neue&family=Josefin+Sans:wght@200&family=Lora&family=Roboto+Serif:wght@100&family=Rowdies:wght@300;700&display=swap');
 
 h1{
   font-size:3.4rem;
@@ -47,7 +47,7 @@ h6{
 
 p{
   margin:1.1618rem 0;
-  font-family:"Fredoka", sans-serif ;
+  font-family:"Inter", sans-serif ;
   font-size:1rem;
   line-height: 1.618;
 }
@@ -58,7 +58,6 @@ button{
   margin-top: 10px;
   border-radius: 10px;
   font-family:"Josefin Sans", sans-serif ;
-  box-shadow:-3px 3px 3px #848484;
   border: none;
 }
 
@@ -73,7 +72,7 @@ button#uno{
 
 button#dos{
   background-color:var(--verd);
-  color:var(--negre)
+  color:var(--negre);
   height: 50px;
   font-size:1.6rem;
   font-weight:700;
