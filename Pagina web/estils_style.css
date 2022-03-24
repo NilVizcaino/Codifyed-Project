@@ -94,9 +94,11 @@ button#unob{
   left:20px;
   color:white;
   height:60px;
+  width: 100px;
   margin-bottom:10px;
   font-size:1.6rem;
   font-weight:700;
+  line-height:3.80rem;
 }
 
 button#dos{
