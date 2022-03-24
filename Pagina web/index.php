@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
 <section>
   <article>
-    <h1>Benvinguda<h1>
+    <h1><h1>
       <p></p>
   </article>
 </section>
