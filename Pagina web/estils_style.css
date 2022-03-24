@@ -101,6 +101,87 @@ button#unob{
   line-height:3.80rem;
 }
 
+button#menu{
+  position: absolute;
+  background-color:var(--verd);
+  top:3 %;
+  left:20px;
+  color:white;
+  height:60px;
+  width: 100px;
+  font-size:1.6rem;
+  font-weight:700;
+  line-height:3.80rem;
+  cursor:pointer;
+  z-index:799;
+}
+
+  button#close{
+    position: absolute;
+    background-color:var(--verd);
+    top:3 %;
+    left:20px;
+    color:transparent;
+    height:60px;
+    width: 100px;
+    font-size:1.6rem;
+    font-weight:700;
+    line-height:3.80rem;
+    cursor:pointer;
+    z-index:798;
+  }
+
+  button#menu:focus{
+    color: transparent;
+  }
+
+  button#menu:focus ~ nav#submenu{
+    left:0vw;
+  }
+
+  button#menu:focus ~ button#close{
+    color:white;
+    z-index:801;
+  }
+
+  nav#submenu{
+    display:flex;
+    position:absolute;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    left:-30vw;
+    width:30vw;
+    height:100vh;
+    background-color:#8D4925;
+    transition:all 500ms ease-in-out;
+    z-index:800;
+  }
+
+  nav#submenu button{
+    background-color:transparent;
+    padding:25px 0;
+    font-size:1.5rem;
+    border:none;
+    color:white;
+    cursor:pointer;
+    transition:all 250ms ease;
+  }
+
+button#unoc{
+  position: absolute;
+  background-color:var(--verd);
+  top:3 %;
+  left:20px;
+  color:white;
+  height:60px;
+  width: 100px;
+  margin-bottom:10px;
+  font-size:1.6rem;
+  font-weight:700;
+  line-height:3.80rem;
+}
+
 button#dos{
   background-color:var(--verd);
   color:var(--negre);
@@ -129,6 +210,10 @@ button#unoa:hover{
 }
 
 button#unob:hover{
+  background-color: var(--turquessa);
+}
+
+button#unoc:hover{
   background-color: var(--turquessa);
 }
 
