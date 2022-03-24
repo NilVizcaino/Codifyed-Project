@@ -62,12 +62,29 @@ button{
 }
 
 button#uno{
+  position: absolute;
   background-color:var(--verd);
-  height: 40px;
-  font-size:1.6rem;
+  top:7%;
+  right:160px;
+  height: 32px;
+  width:130px;
+  font-size:1.25rem;
   font-weight:700;
   color:white;
-  line-height:2.58rem;
+  line-height:2rem;
+}
+
+button#unoa{
+  position: absolute;
+  background-color:var(--verd);
+  top:7%;
+  right:20px;
+  height:32px;
+  width:130px;
+  font-size:1.25rem;
+  font-weight:700;
+  color:white;
+  line-height:2rem;
 }
 
 button#dos{
@@ -90,6 +107,10 @@ button#tres{
 }
 
 button#uno:hover{
+  background-color: var(--turquessa);
+}
+
+button#unoa:hover{
   background-color: var(--turquessa);
 }
 

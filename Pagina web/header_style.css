@@ -1,0 +1,19 @@
+.logo{
+  display:block;
+  position:absolute;
+  transform:translate(-50%, -50%);
+  top:25%;
+  left:50%;
+  width:400px;
+  cursor:pointer;
+}
+
+.menu{
+  display:block;
+  position:absolute;
+  transform:translate(-50%, -50%);
+  top:25%;
+  left:5%;
+  width:70px;
+  cursor:pointer;
+}
