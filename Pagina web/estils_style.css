@@ -87,6 +87,18 @@ button#unoa{
   line-height:2rem;
 }
 
+button#unob{
+  position: absolute;
+  background-color:var(--verd);
+  top:3 %;
+  left:20px;
+  color:white;
+  height:60px;
+  margin-bottom:10px;
+  font-size:1.6rem;
+  font-weight:700;
+}
+
 button#dos{
   background-color:var(--verd);
   color:var(--negre);
@@ -111,6 +123,10 @@ button#uno:hover{
 }
 
 button#unoa:hover{
+  background-color: var(--turquessa);
+}
+
+button#unob:hover{
   background-color: var(--turquessa);
 }
 

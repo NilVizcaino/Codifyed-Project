@@ -11,7 +11,7 @@
     <nav>
       <button id="uno">Registrar-se</button>
       <button id="unoa">Iniciar sessió</button>
+      <button id="unob">Menu</button>
     </nav>
-    <img class="logo" src="logo_oritzontal.svg"/>
-    <img class="menu" src="menu.png"/>
+    <img class="logo" src="logo.svg"/>
   </header>
