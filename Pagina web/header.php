@@ -9,8 +9,8 @@
   <a name="capçalera"></a>
   <header>
     <nav>
-      <button id="uno">Inici de sessio</button>
-      <button id="unoa">Registret</button>
+      <button id="uno">Registrar-se</button>
+      <button id="unoa">Iniciar sessió</button>
     </nav>
     <img class="logo" src="logo_oritzontal.svg"/>
     <img class="menu" src="menu.png"/>
