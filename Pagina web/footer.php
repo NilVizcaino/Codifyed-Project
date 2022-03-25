@@ -8,7 +8,7 @@
   <div id="centre">
     <span><i class="fa fa-facebook" onclick="window.open('https://www.facebook.com/profile.php?id=100079624846778', '_blank');"></i></span>
     <span><i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/codify_ed/','_blank');"></i></span>
-    <span><i class="fa fa-twitter" onclick="window.open('https://twitter.com/lasallemanlleu','_blank');"></i></span>
+    <span><i class="fa fa-twitter" onclick="window.open('https://twitter.com/Codify-ed','_blank');"></i></span>
     <span><i class="fa fa-youtube" onclick="window.open('https://www.youtube.com/channel/UC_YT1VmIypAUGsx13Ed9pAg','_blank');"></i></span>
   </div>
 </footer>
