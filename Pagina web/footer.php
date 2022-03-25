@@ -2,7 +2,8 @@
   <div id="info">
     <span>Carrer Muntaner, 507</span>
     <span>BARCELONA</span>
-    <span>T: 93 850 60 64</span>
+    <span>Tel: 927 396 223</span>
+    <span>Correu: CStaffSupport@service.com</span>
   </div>
   <div id="centre">
     <span><i class="fa fa-facebook" onclick="window.open('https://www.facebook.com/lasallemanlleu.cat/', '_blank');"></i></span>
