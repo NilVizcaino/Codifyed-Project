@@ -114,6 +114,7 @@ button#menu{
   line-height:3.80rem;
   cursor:pointer;
   z-index:799;
+  transition: all 300ms ease;
 }
 
   button#close{
@@ -129,6 +130,7 @@ button#menu{
     line-height:3.80rem;
     cursor:pointer;
     z-index:798;
+    transition: all 300ms ease;
   }
 
   button#menu:focus{
@@ -137,6 +139,16 @@ button#menu{
 
   button#menu:focus ~ nav#submenu{
     left:0vw;
+  }
+
+  button#menu:hover{
+    background-color:var(--turquessa) ;
+    transition: all 300ms ease;
+  }
+
+  button#close:hover{
+    background-color:var(--turquessa) ;
+    transition: all 300ms ease;
   }
 
   button#menu:focus ~ button#close{
@@ -261,7 +273,7 @@ input#siete{
 
 /* Fons */
 ::-webkit-scrollbar-track {
-  background: Black;
+  background: #5E5E5E;
 }
 
 /* Color normal de l'escroll */
