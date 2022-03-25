@@ -20,6 +20,7 @@ footer{
  footer div#info{
    display:flex;
    position:relative;
+   color:white;
    height:100px;
    flex-direction:column;
    justify-content:center;
@@ -37,6 +38,7 @@ footer{
 
   footer div#centre span{
     display:flex;
+    color:white;
     justify-content:center;
     align-items:center;
     padding:30px 0 0 0;
