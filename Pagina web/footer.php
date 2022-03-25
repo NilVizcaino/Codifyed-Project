@@ -1,6 +1,6 @@
 <footer>
   <div id="info">
-    <span>Carrer Muntaner, 507</span>
+    <span><h7>Carrer Muntaner, 507<h7></span>
     <span>BARCELONA</span>
     <span>Tel: 927 396 223</span>
     <span>Correu: CStaffSupport@service.com</span>
