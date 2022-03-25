@@ -253,3 +253,25 @@ input#siete{
   outline:none;
   margin-bottom: 20px;
 }
+
+/* amplada */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Fons */
+::-webkit-scrollbar-track {
+  background: Black;
+}
+
+/* Color normal de l'escroll */
+::-webkit-scrollbar-thumb {
+  background: #47DD2E ;
+  transition:all 300ms ease-in-out;
+}
+
+/* Color seleccionat de l'escroll */
+::-webkit-scrollbar-thumb:hover {
+  background: #2EBFDD;
+  transition:all 300ms ease-in-out;
+}
