@@ -17,6 +17,7 @@
       <button id="close">Close</button>
     <div id="submenu">
       <button id="idioma">Idioma</button>
+      <button id="qui">Qui Som?</button>
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
