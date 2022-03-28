@@ -15,9 +15,9 @@
       <button id="unoc">Tencar</button>
       <button id="menu">Menu</button>
       <button id="close">Close</button>
-    </nav>
-    <nav id="submenu">
+    <div id="submenu">
       <button id="idioma">Idioma</button>
+    </div>
     </nav>
     <img class="logo" src="logo.svg"/>
   </header>

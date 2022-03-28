@@ -137,9 +137,10 @@ button#menu{
     color: transparent;
   }
 
-  button#menu:focus ~ nav#submenu{
+  button#menu:focus ~ div#submenu{
     left:0vw;
   }
+
 
   button#menu:hover{
     background-color:var(--turquessa) ;
@@ -156,7 +157,7 @@ button#menu{
     z-index:801;
   }
 
-  nav#submenu{
+  div#submenu{
     display:flex;
     position:absolute;
     flex-direction:column;
@@ -170,7 +171,7 @@ button#menu{
     z-index:800;
   }
 
-  nav#submenu button{
+  div#submenu button{
     background-color:transparent;
     padding:25px 0;
     font-size:1.5rem;
