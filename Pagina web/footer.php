@@ -3,7 +3,7 @@
     <img class="candau2" src="candau2.png"/>
   </div>
   <div id="info">
-    <span><p>Carrer Muntaner, 507</p></span>
+    <span>Carrer Muntaner, 507</span>
     <span>BARCELONA</span>
     <span>Tel: 927 396 223</span>
     <span>Correu: CStaffSupport@service.com</span>

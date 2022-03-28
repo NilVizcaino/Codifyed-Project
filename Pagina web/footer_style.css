@@ -25,6 +25,7 @@ footer{
  footer div#info{
    display:flex;
    position:relative;
+   font-family:"Inter", sans-serif;
    color:white;
    height:100px;
    flex-direction:column;
