@@ -9,9 +9,9 @@
       position:relative;
       width:70vw;
       height:300px;
-      margin:-70px auto 200px auto;
+      margin:-70px 130px 200px -30px;
       grid-template-columns:1fr 1fr 1fr;
-      grid-column-gap:10px;
+      grid-column-gap:15px;
     }
 
     section{
@@ -33,14 +33,37 @@
       height:475px;
     }
 
+    #seguretat{
+      width:325px;
+      height:450px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #seguretat:hover{
+      width:350px;
+      height:475px;
+    }
+
+    #atencio{
+      width:325px;
+      height:450px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #atencio:hover{
+      width:350px;
+      height:475px;
+    }
+
     </style>
   </head>
   <body>
     <div id="wrapp">
-      <section>Box 1</section>
-      <section><img id="productes" src="productes.png"/>
-</section>
-      <section>Box 3</section>
+      <section><img id="seguretat" src="revisio_seguretat.png"/></section>
+      <section><img id="productes" src="productes.png"/></section>
+      <section><img id="atencio" src="atencio_client.png"/></section>
     </div>
   </body>
 </html>
