@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
 <section>
   <article>
-    <?php include("botiga_productes.php") ?>
+    <?php include("body.php") ?>
   </article>
 </section>
 <?php include("footer.php") ?>
