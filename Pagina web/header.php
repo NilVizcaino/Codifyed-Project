@@ -18,14 +18,6 @@
       <button id="idioma"><b>Idioma</b></button>
       <button id="qui"><b>Qui Som?</b></button>
     </div>
-    <div id="registre">
-      <button id="correu"><b>Correu:</b></button>
-      <input id="seis" type="email" />
-      <button id="usuari"><b>Usuari:</b></button>
-      <input id="seis" type="email" />
-      <button id="contrasenya"><b>Contrasenya:</b></button>
-      <input id="siete" type="password"/>
-    </div>
     </nav>
     <img class="logo" src="logo.svg"/>
   </header>

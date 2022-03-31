@@ -10,7 +10,7 @@ h1{
 
 h2{
   font-size:2.6rem;
-  font-weight:700;
+  font-weight:700;n
   font-family: "Josefin Sans", sans-serif;
   color:var(--turquessa);
   line-height:4.2rem;
@@ -72,40 +72,6 @@ button#registrar-se{
   font-weight:700;
   color:white;
   line-height:2rem;
-}
-
-
-button#registrar-se:focus ~ div#registre{
-  top:calc(20vh - 50px);
-  left:calc(40vw - 50px);
-}
-
-button#registrar-se:focus ~ button#close{
-  color:white;
-  z-index:801;
-}
-
-div#registre{
-  display:flex;
-  position:absolute;
-  flex-direction:column;
-  align-items:flex-start;
-  left:-30vw;
-  width:30vw;
-  height:75vh;
-  background-color:var(--blau_fosc);
-  transition:all 500ms ease-in-out;
-  z-index:800;
-}
-
-div#registre button{
-  background-color:transparent;
-  padding:25px 0;
-  font-size:1.5rem;
-  border:none;
-  color:white;
-  cursor:pointer;
-  transition:all 250ms ease;
 }
 
 button#unoa{
