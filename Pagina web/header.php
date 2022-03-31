@@ -10,7 +10,7 @@
   <header>
     <nav>
       <button id="registrar-se">Registrar-se</button>
-      <button id="unoa">Iniciar sessió</button>
+      <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
       <button id="menu">Menu</button>
       <button id="close">Tencar</button>
     <div id="submenu">
