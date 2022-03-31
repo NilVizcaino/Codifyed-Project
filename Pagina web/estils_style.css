@@ -74,21 +74,31 @@ button#registrar-se{
   line-height:2rem;
 }
 
-div#registrar{
+
+button#registrar-se:focus ~ div#registre{
+  top:calc(20vh - 50px);
+  left:calc(40vw - 50px);
+}
+
+button#registrar-se:focus ~ button#close{
+  color:white;
+  z-index:801;
+}
+
+div#registre{
   display:flex;
   position:absolute;
   flex-direction:column;
-  justify-content:center;
-  align-items:center;
+  align-items:flex-start;
   left:-30vw;
-  width:20vw;
-  height:108.75vh;
-  background-color:#91dee4;
+  width:30vw;
+  height:75vh;
+  background-color:var(--blau_fosc);
   transition:all 500ms ease-in-out;
   z-index:800;
 }
 
-div#registrar button{
+div#registre button{
   background-color:transparent;
   padding:25px 0;
   font-size:1.5rem;
