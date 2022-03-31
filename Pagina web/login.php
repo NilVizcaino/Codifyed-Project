@@ -1,3 +1,4 @@
+<?php include("header.php") ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,19 +19,20 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 }
 </SCRIPT>
 <FORM name=form>
-<P>Usuario:    <INPUT type="text" name="usuari">
+<P>Usuario:    <INPUT type="text" name="correu">
 <P>Contraseña: <INPUT type="password" name="password">
 <INPUT type="submit" value="Acceder">
 </FORM>
 
 <?php
-if (isset($_GET["usuari"]))
+include "controlador.php";
+if (isset($_GET["correu"]))
 {
-  $usuari =$_GET["usuari"];
+  $correu =$_GET["correu"];
     $password =$_GET["password"];
-    // CONSULTA A LA BASE DE DADES
-    $resposta ="";
-    if ($usuari == "admin" && $password == "admin")
+    $db = new DB();
+      $resposta =$db->selectUsuari($correu);
+    if ($correu == $resposta["correu"] && $password == $resposta["contrasenya"])
     echo "LOGIN CORRECETE";
     else
     echo "<alert>LOGIN INCORRECETE";
@@ -38,3 +40,4 @@ if (isset($_GET["usuari"]))
 ?>
 </body>
 </html>
+<?php include("footer.php") ?>

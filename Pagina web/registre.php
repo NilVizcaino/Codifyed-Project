@@ -1,3 +1,4 @@
+<?php include("header.php") ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -16,14 +17,32 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
          alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
     }
 }
+
+
 </SCRIPT>
 <FORM name=form>
 <P>Correu:    <INPUT type="text" name="correu">
-<P>Usuario:    <INPUT type="text" name="usuari">
 <P>Contraseña: <INPUT type="password" name="password">
-<P>Confirmar contraseña: <INPUT type="password" name="password">
+<P>Confirmar contraseña: <INPUT type="password" name="password2">
 <INPUT type="submit" value="Acceder">
 </FORM>
 
+<?php
+include "controlador.php";
+if (isset($_GET["correu"]))
+{
+  $correu =$_GET["correu"];
+    $password =$_GET["password"];
+    $password2 =$_GET["password2"];
+    $db = new DB();
+    if ($password2== $password)
+      $resposta =$db->insertaUsuari($correu, $password);
+    else
+    echo "<alert>Les contasenyes no coincideixen";
+}
+?>
+
+
 </body>
 </html>
+<?php include("footer.php") ?>
