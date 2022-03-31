@@ -19,9 +19,11 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 }
 </SCRIPT>
 <FORM name=form>
+<div id=caixa>
 <P>Usuario:    <INPUT type="text" name="correu">
 <P>Contraseña: <INPUT type="password" name="password">
 <INPUT type="submit" value="Acceder">
+</div>
 </FORM>
 
 <?php
