@@ -9,7 +9,7 @@
   <a name="capçalera"></a>
   <header>
     <nav>
-      <button id="registrar-se">Registrar-se</button>
+      <button id="registrar-se"><a  href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
       <button id="menu">Menu</button>
       <button id="close">Tencar</button>
