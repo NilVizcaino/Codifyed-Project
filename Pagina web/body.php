@@ -63,7 +63,7 @@
   </head>
   <body>
     <div id="wrapp">
-      <section><img id="seguretat" src="revisio_seguretat.png"/></section>
+      <section><img id="seguretat" src="revisio_seguretat.png"  href="registre.php"/></section>
       <section><img id="productes" src="productes.png"/></section>
       <section><img id="atencio" src="atencio_client.png"/></section>
     </div>
