@@ -12,8 +12,8 @@
       height:300px;
       justify-content: center;
       margin:-70px 110px 200px 70px;
-      grid-template-columns:1fr 1fr 1fr;
-      grid-column-gap:15px;
+      grid-template-columns:1fr 1fr;
+      grid-column-gap:25px;
     }
 
     section{
@@ -24,35 +24,35 @@
     }
 
     #productes{
-      width:450px;
-      height:450px;
+      width:650px;
+      height:425px;
       cursor:pointer;
       transition: all 300ms ease;
     }
 
     #productes:hover{
-      width:475px;
-      height:475px;
+      width:700px;
+      height:450px;
     }
 
     #seguretat{
-      width:325px;
-      height:450px;
+      width:425px;
+      height:425px;
       cursor:pointer;
       transition: all 300ms ease;
     }
 
     #seguretat:hover{
-      width:350px;
-      height:475px;
+      width:450px;
+      height:450px;
     }
 
     </style>
   </head>
   <body>
     <div id="wrapp">
-      <section><img id="seguretat" src="revisio_seguretat.png"/></section>
-      <section><img id="productes" src="productes.png"/></section>
+      <section><img id="seguretat" src="Software.png"/></section>
+      <section><img id="productes" src="hardware_products.png"/></section>
     </div>
   </body>
 </html>
