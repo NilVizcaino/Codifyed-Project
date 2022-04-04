@@ -4,6 +4,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Login para 1 usuario</title>
+
+<style>
+div#caixa2{
+    display:grid;
+    position:relative;
+    width:45vw;
+    height:350px;
+    margin:-40px auto 40px auto;
+    background-color:var(--blau_cel) ;
+    justify-content:center;
+    align-items:center;
+  }
+</style>
 </head>
 
 <body>
@@ -21,10 +34,12 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 
 </SCRIPT>
 <FORM name=form>
+<div id=caixa2>
 <P>Correu:    <INPUT type="text" name="correu">
-<P>Contraseña: <INPUT type="password" name="password">
-<P>Confirmar contraseña: <INPUT type="password" name="password2">
-<INPUT type="submit" value="Acceder">
+<P>Contrasenya: <INPUT type="password" name="password">
+<P>Confirmar contrasenya: <INPUT type="password" name="password2">
+<p><INPUT type="submit" value="Acceder">
+</div>
 </FORM>
 
 <?php

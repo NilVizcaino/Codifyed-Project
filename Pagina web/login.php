@@ -4,6 +4,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Login para 1 usuario</title>
+
+<style>
+  div#caixa{
+      display:grid;
+      position:relative;
+      width:35vw;
+      height:350px;
+      margin:-40px auto 40px auto;
+      background-color:var(--blau_cel) ;
+      justify-content:center;
+      align-items:center;
+    }
+</style>
 </head>
 
 <body>
@@ -21,8 +34,8 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 <FORM name=form>
   <div id=caixa>
     <P>Usuario:    <INPUT type="text" name="correu">
-    <P>Contraseña: <INPUT type="password" name="password">
-    <INPUT type="submit" value="Acceder">
+    <P>Contrasenya: <INPUT type="password" name="password">
+    <p><INPUT type="submit" value="Acceder"></p>
   </div>
 </FORM>
 
