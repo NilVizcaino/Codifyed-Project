@@ -10,11 +10,12 @@ div#caixa2{
     display:grid;
     position:relative;
     width:45vw;
-    height:350px;
+    height:380px;
     margin:-40px auto 40px auto;
     background-color:var(--blau_cel) ;
     justify-content:center;
     align-items:center;
+    border-radius: 25px;
   }
 </style>
 </head>
@@ -35,9 +36,9 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 </SCRIPT>
 <FORM name=form>
 <div id=caixa2>
-<P>Correu:    <INPUT type="text" name="correu">
-<P>Contrasenya: <INPUT type="password" name="password">
-<P>Confirmar contrasenya: <INPUT type="password" name="password2">
+<P>Correu:    <INPUT id="seis" type="text" name="correu">
+<P>Contrasenya: <INPUT id="siete" type="password" name="password">
+<P>Confirmar contrasenya: <INPUT  id="siete" type="password" name="password2">
 <p><INPUT type="submit" value="Acceder">
 </div>
 </FORM>
