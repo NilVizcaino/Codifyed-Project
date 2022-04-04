@@ -137,9 +137,9 @@ button#menu{
     color: transparent;
   }
 
-  button#menu:focus ~ div#submenu{
+  /*button#menu:focus ~ div#submenu{
     left:0vw;
-  }
+  }*/
 
 
   button#menu:hover{
@@ -252,6 +252,9 @@ input#seis{
   margin-bottom: 20px;
 }
 
+a{
+  text-decoration: none;
+}
 
 input#siete{
   font-size: 1.4rem;
