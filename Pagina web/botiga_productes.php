@@ -12,7 +12,7 @@
       position:relative;
       width:70vw;
       height:300px;
-      margin:-20px 110px 200px 135px;
+      margin:-20px 110px 200px 125px;
       grid-template-columns:1fr 1fr;
       grid-column-gap:25px;
     }
