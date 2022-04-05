@@ -12,7 +12,7 @@
       position:relative;
       width:70vw;
       height:300px;
-      margin:-20px 110px 200px 120px;
+      margin:-20px 110px 200px 135px;
       grid-template-columns:1fr 1fr;
       grid-column-gap:25px;
     }
@@ -50,4 +50,3 @@
     </div>
   </body>
 </html>
-<?php include("footer.php") ?>
