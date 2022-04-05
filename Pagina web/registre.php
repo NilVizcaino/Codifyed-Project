@@ -51,8 +51,10 @@ if (isset($_GET["correu"]))
     $password =$_GET["password"];
     $password2 =$_GET["password2"];
     $db = new DB();
-    if ($password2== $password)
+    if ($password2== $password){
       $resposta =$db->insertaUsuari($correu, $password);
+      header("Location: index.php");
+    }
     else
     echo "<alert>Les contasenyes no coincideixen";
 }

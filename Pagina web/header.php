@@ -4,24 +4,34 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" type="text/css"  href="style.css" />
-    <script>
-      var Posició = 0;
-      let submenu = document.getElmentById("submenu");
-      function sumar(){
-        sumar = sumar + 1;
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript">
 
-        if(sumar == 1){
-        }
+      $(document).ready(function(){
 
-        if(sumar == 2){
-          Posició == 0
-        }
-      }
+        $(".menu-btn").click(function(){
+          $(".menu-btn").toggleClass("bgmenu");
+          $(".content-menu").toggleClass("show-content");
+          $(".titles").toggleClass("show");
+          $(".top-bar").toggleClass("cross-top");
+          $(".bottom-bar").toggleClass("cross-bottom");
+        });
+
+      });
+
     </script>
   </head>
 <body>
   <a name="capçalera"></a>
   <header>
+    <div class="content-menu">
+    </div>
+    <div class="menu-btn">
+      <span class="top-bar"></span>
+      <span class="bottom-bar"></span>
+    </div>
+
     <nav>
       <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>

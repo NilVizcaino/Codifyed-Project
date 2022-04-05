@@ -291,3 +291,18 @@ input#siete{
   background: #2EBFDD;
   transition:all 300ms ease-in-out;
 }
+
+*{margin:0;
+padding:0;}
+
+.menu-btn{
+  display:block;
+  position:absolute;
+  width:70px;
+  height:70px;
+  left:25px;
+  top:25px;
+  background-color:red;
+  cursor:pointer;
+  transition:all 250ms ease;
+}
