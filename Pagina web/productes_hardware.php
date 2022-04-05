@@ -11,9 +11,9 @@
       grid-column-gap:25px;
     }
 
-    #hardware{
-      width:650px;
-      height:425px;
+    #alarmes{
+      width:1050px;
+      height:350px;
       cursor:pointer;
       transition: all 300ms ease;
     }
@@ -39,8 +39,7 @@
   </head>
   <body>
     <div id="wrapp">
-      <section><img id="software" src="Software.png"/></section>
-      <section><a href="productes_hardware.php"><img id="hardware" src="hardware_products.png"/></a></section>
+      <section><img id="alarmes" src="graella_alarmes.png"/></section>
     </div>
   </body>
 </html>
