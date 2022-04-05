@@ -25,8 +25,7 @@
     <nav>
       <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
-      <button id="menu" onclick="sumar();">Menu</button>
-      <button id="close" onclick="sumar();">Tencar</button>
+      <?php include("submenu_program.php") ?>
     <div id="submenu">
       <button id="idioma"><b><a href="registre.php">Inici</a></b></button>
       <button id="idioma"><b>Idioma</b></button>

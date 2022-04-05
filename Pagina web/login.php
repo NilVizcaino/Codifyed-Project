@@ -15,6 +15,7 @@
       background-color:var(--blau_cel) ;
       justify-content:center;
       align-items:center;
+      border-radius: 25px;
     }
 </style>
 </head>
@@ -33,8 +34,8 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 </SCRIPT>
 <FORM name=form>
   <div id=caixa>
-    <P>Usuario:    <INPUT type="text" name="correu">
-    <P>Contrasenya: <INPUT type="password" name="password">
+    <P>Usuario:    <INPUT id="seis" type="text" name="correu">
+    <P>Contrasenya: <INPUT id="siete" type="password" name="password">
     <p><INPUT type="submit" value="Acceder"></p>
   </div>
 </FORM>
