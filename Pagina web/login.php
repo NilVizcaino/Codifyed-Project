@@ -34,7 +34,7 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
 </SCRIPT>
 <FORM name=form>
   <div id=caixa>
-    <P>Usuario:    <INPUT id="seis" type="text" name="correu">
+    <P>Correu:    <INPUT id="seis" type="text" name="correu">
     <P>Contrasenya: <INPUT id="siete" type="password" name="password">
     <p><INPUT type="submit" value="Acceder"></p>
   </div>
