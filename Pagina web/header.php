@@ -34,7 +34,7 @@
     <div class="content-menu">
       <button id="inici"><b><a href="index.php">Inici</a></b></button>
       <button id="idioma"><b>Idioma</b></button>
-      <button id="qui"><b>Qui Som?</b></button>
+      <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
