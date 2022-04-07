@@ -19,8 +19,8 @@
     }
 
     #hardware:hover{
-      width:675px;
-      height:450px;
+      width:665px;
+      height:440px;
     }
 
     #software{
@@ -31,8 +31,8 @@
     }
 
     #software:hover{
-      width:450px;
-      height:450px;
+      width:440px;
+      height:440px;
     }
 
     </style>
