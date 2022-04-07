@@ -32,7 +32,7 @@
       <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
     <div class="content-menu">
-      <button id="idioma"><b><a href="registre.php">Inici</a></b></button>
+      <button id="idioma"><b><a href="index.php">Inici</a></b></button>
       <button id="idioma"><b>Idioma</b></button>
       <button id="qui"><b>Qui Som?</b></button>
     </div>

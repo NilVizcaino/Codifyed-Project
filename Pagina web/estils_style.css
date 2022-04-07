@@ -236,7 +236,8 @@ padding:0;}
   align-items:center;
   left:-30vw;
   width:20vw;
-  height:108.75vh;
+  height:90.2vh;
+  border-radius: 10px;
   background-color:#91dee4;
   transition:all 500ms ease-in-out;
   z-index:800;
