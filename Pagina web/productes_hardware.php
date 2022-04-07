@@ -22,7 +22,7 @@
     #alarma_home{
       position: absolute;
       left:65px;
-      top:-5px;
+      top:25px;
       width:175px;
       height:200px;
       cursor:pointer;
@@ -37,7 +37,7 @@
     #somfy_one_pro{
       position: absolute;
       left:365px;
-      top:-90px;
+      top:-40px;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -49,6 +49,21 @@
       height:225px;
     }
 
+    #somfy_protexiom{
+      position: absolute;
+      left:685px;
+      top:-125px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #somfy_protexiom:hover{
+      width:210px;
+      height:225px;
+    }
+
     </style>
   </head>
   <body>
@@ -56,6 +71,7 @@
       <section><img id="graella_alarmes" src="graella_alarmes.png"/></section>
       <section><a href="home_alarm.php"><img id="alarma_home" src="alarma_home.png"/></a></section>
       <section><a href="somfy_one_pro.php"><img id="somfy_one_pro" src="somfy_one_pro.png"/></a></section>
+      <section><a href="somfy_protexiom.php"><img id="somfy_protexiom" src="somfy_protexiom.png"/></a></section>
     </div>
   </body>
 </html>
