@@ -22,7 +22,7 @@
     #alarma_home{
       position: absolute;
       left:65px;
-      top:-55px;
+      top:-5px;
       width:175px;
       height:200px;
       cursor:pointer;
@@ -34,12 +34,28 @@
       height:215px;
     }
 
+    #somfy_one_pro{
+      position: absolute;
+      left:365px;
+      top:-90px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #somfy_one_pro:hover{
+      width:210px;
+      height:225px;
+    }
+
     </style>
   </head>
   <body>
     <div id="wrapp">
       <section><img id="graella_alarmes" src="graella_alarmes.png"/></section>
       <section><a href="home_alarm.php"><img id="alarma_home" src="alarma_home.png"/></a></section>
+      <section><a href="somfy_one_pro.php"><img id="somfy_one_pro" src="somfy_one_pro.png"/></a></section>
     </div>
   </body>
 </html>
