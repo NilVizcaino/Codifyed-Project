@@ -14,8 +14,6 @@
           $(".menu-btn").toggleClass("bgmenu");
           $(".content-menu").toggleClass("show-content");
           $(".titles").toggleClass("show");
-          $(".top-bar").toggleClass("cross-top");
-          $(".bottom-bar").toggleClass("cross-bottom");
         });
 
       });
@@ -28,14 +26,12 @@
     <div class="content-menu">
     </div>
     <div class="menu-btn">
-      <span class="top-bar"></span>
-      <span class="bottom-bar"></span>
     </div>
 
     <nav>
       <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
-    <div id="submenu">
+    <div class="content-menu">
       <button id="idioma"><b><a href="registre.php">Inici</a></b></button>
       <button id="idioma"><b>Idioma</b></button>
       <button id="qui"><b>Qui Som?</b></button>
