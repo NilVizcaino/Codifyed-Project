@@ -197,6 +197,13 @@ input#siete{
   margin: 30px 30px 30px 30px;
 }
 
+#eslogan{
+  height: 30px;
+  width: auto;
+  text-align: center;
+  margin: -200px 30px 90px 30px;
+}
+
 /* amplada */
 ::-webkit-scrollbar {
   width: 13px;
