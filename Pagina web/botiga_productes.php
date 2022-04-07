@@ -39,7 +39,7 @@
   </head>
   <body>
     <div id="wrapp">
-      <section><img id="software" src="Software.png"/></section>
+      <section><a href="productes_software.php"><img id="software" src="Software.png"/></a></section>
       <section><a href="productes_hardware.php"><img id="hardware" src="hardware_products.png"/></a></section>
     </div>
   </body>
