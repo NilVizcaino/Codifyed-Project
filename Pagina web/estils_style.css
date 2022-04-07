@@ -191,6 +191,12 @@ input#siete{
   margin-bottom: 20px;
 }
 
+#div_paragref_qui_som{
+  height: 400px;
+  width: auto;
+  margin: 30px 30px 30px 30px;
+}
+
 /* amplada */
 ::-webkit-scrollbar {
   width: 13px;
@@ -237,7 +243,7 @@ padding:0;}
   align-items:center;
   left:-30vw;
   width:20vw;
-  height:90.2vh;
+  height:50.2vh;
   border-radius: 10px;
   background-color:#91dee4;
   transition:all 500ms ease-in-out;
