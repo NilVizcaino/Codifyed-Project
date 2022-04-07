@@ -223,6 +223,7 @@ padding:0;}
   height:70px;
   left:25px;
   top:25px;
+  border-radius: 10px;
   background-color:var(--verd);
   cursor:pointer;
   transition:all 250ms ease;
