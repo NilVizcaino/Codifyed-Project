@@ -29,7 +29,6 @@
     </div>
     <div class="menu-btn">
       <nav id="caixa_menu">
-        <i class="fa fa-bars"></i>
       </nav>
     </div>
 
