@@ -19,7 +19,7 @@
 
     #graella_sais{
       position: absolute;
-      top:225px;
+      top:280px;
       width:700px;
       height:350px;
       cursor:pointer;
@@ -28,7 +28,7 @@
 
     #graella_camares{
       position: absolute;
-      top:450px;
+      top:560px;
       width:700px;
       height:350px;
       cursor:pointer;
@@ -38,7 +38,7 @@
     #alarma_home{
       position: absolute;
       left:65px;
-      top:-410px;
+      top:-210px;
       width:175px;
       height:200px;
       cursor:pointer;
@@ -53,7 +53,7 @@
     #somfy_one_pro{
       position: absolute;
       left:365px;
-      top:-565px;
+      top:-295px;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -68,7 +68,7 @@
     #somfy_protexiom{
       position: absolute;
       left:685px;
-      top:-745px;
+      top:-410px;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -76,6 +76,66 @@
     }
 
     #somfy_protexiom:hover{
+      width:210px;
+      height:225px;
+    }
+
+    #conceptronic{
+      position: absolute;
+      left:80px;
+      top:-130px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #conceptronic:hover{
+      width:210px;
+      height:225px;
+    }
+
+    #lapara{
+      position: absolute;
+      left:385px;
+      top:-225px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #lapara:hover{
+      width:210px;
+      height:225px;
+    }
+
+    #domo{
+      position: absolute;
+      left:85px;
+      top:55px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #domo:hover{
+      width:210px;
+      height:225px;
+    }
+
+    #rgb_link{
+      position: absolute;
+      left:395px;
+      top:-45px;
+      width:195px;
+      height:210px;
+      cursor:pointer;
+      transition: all 300ms ease;
+    }
+
+    #rgb_link:hover{
       width:210px;
       height:225px;
     }
