@@ -270,3 +270,13 @@ padding:0;}
 .show-content{
   left:0vw;
 }
+
+#caixa_menu{
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+  justify-content: center;
+
+}
+
+https://fontawesome.com/v6/docs/web/style/size

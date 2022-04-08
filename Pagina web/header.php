@@ -14,6 +14,8 @@
           $(".menu-btn").toggleClass("bgmenu");
           $(".content-menu").toggleClass("show-content");
           $(".titles").toggleClass("show");
+          $(".tbar").toggleClass("tex");
+          $(".bbar").toggleClass("bex");
         });
 
       });
@@ -26,6 +28,9 @@
     <div class="content-menu">
     </div>
     <div class="menu-btn">
+      <nav id="caixa_menu">
+        <i class="fa fa-bars"></i>
+      </nav>
     </div>
 
     <nav>
