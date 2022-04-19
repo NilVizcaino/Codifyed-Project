@@ -2,7 +2,7 @@
 
 <style>
 
-  div#wrapp{
+  #wrapp{
     display:grid;
     position:relative;
     width:70vw;
@@ -10,10 +10,16 @@
     margin:-20px 110px 200px 125px;
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap:25px;
+    transition: all 300ms ease
   }
 
 
   #codex:hover{
+    width:370px;
+    height:470px;
+  }
+
+  #codex_premium:hover{
     width:370px;
     height:470px;
   }
