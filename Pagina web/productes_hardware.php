@@ -159,6 +159,7 @@
       transform:translate(-50%, -100%);
       left:50vw;
       top:50vh;
+      margin:0px 0px 100px 0px;
     }
 
     </style>
@@ -183,7 +184,6 @@
       <section><a href="lapara.php"><img id="lapara" src="sai_model2.png"/></a></section>
     </div>
 
-    <div></div>
   </body>
 </html>
 <?php include("footer.php") ?>
