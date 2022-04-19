@@ -72,6 +72,7 @@ button#registrar-se{
   font-weight:700;
   color:white;
   line-height:2rem;
+  outline: none;
 }
 
 button#unoa{
