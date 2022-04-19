@@ -9,6 +9,7 @@
       transform:translate(-50%, -120%);
       left:50vw;
       top:50vh;
+      margin:50px 0px 0px 0px;
     }
 
     #graella_alarmes{
