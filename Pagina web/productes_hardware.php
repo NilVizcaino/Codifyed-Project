@@ -20,8 +20,8 @@
 
     #graella_sais{
       position: absolute;
-      top:280px;
-      width:700px;
+      top:0vh;
+      width:650px;
       height:350px;
       cursor:pointer;
       transition: all 300ms ease;
@@ -93,8 +93,8 @@
 
     #conceptronic{
       position: absolute;
-      left:80px;
-      top:-130px;
+      left:60px;
+      top:15vh;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -108,8 +108,8 @@
 
     #lapara{
       position: absolute;
-      left:385px;
-      top:-225px;
+      left:375px;
+      top:15vh;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -124,7 +124,7 @@
     #domo{
       position: absolute;
       left:70px;
-      top:55px;
+      top:13vh;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -138,8 +138,8 @@
 
     #rgb_link{
       position: absolute;
-      left:395px;
-      top:-45px;
+      left:375px;
+      top:13vh;
       width:195px;
       height:210px;
       cursor:pointer;
@@ -149,6 +149,16 @@
     #rgb_link:hover{
       width:210px;
       height:225px;
+    }
+
+    #warp_sais{
+      display:block;
+      position:relative;
+      width:950px;
+      height:350px;
+      transform:translate(-50%, -100%);
+      left:50vw;
+      top:50vh;
     }
 
     </style>
@@ -166,6 +176,14 @@
       <section><a href="domo.php"><img id="domo" src="model_domo.png"/></a></section>
       <section><a href="rgb_link.php"><img id="rgb_link" src="model_rgblink.png"/></a></section>
     </div>
+
+    <div id="warp_sais">
+      <section><img id="graella_sais" src="graella_sais.png"/></section>
+      <section><a href="conceptronic.php"><img id="conceptronic" src="sai_model1.png"/></a></section>
+      <section><a href="lapara.php"><img id="lapara" src="sai_model2.png"/></a></section>
+    </div>
+
+    <div></div>
   </body>
 </html>
 <?php include("footer.php") ?>
