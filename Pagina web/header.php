@@ -11,11 +11,13 @@
       $(document).ready(function(){
 
         $(".menu-btn").click(function(){
-          $(".menu-btn").toggleClass("bgmenu");
-          $(".content-menu").toggleClass("show-content");
-          $(".titles").toggleClass("show");
-          $(".tbar").toggleClass("tex");
-          $(".bbar").toggleClass("bex");
+          $(".content-menu").toggleClass("show-content")
+          $(".content-menu").toggleClass("hide-content");
+        });
+
+        $(".btn-close").click(function(){
+          $(".content-menu").toggleClass("hide-content");
+            $(".content-menu").toggleClass("show-content")
         });
 
       });
@@ -25,19 +27,19 @@
 <body>
   <a name="capçalera"></a>
   <header>
-    <div class="content-menu">
-    </div>
     <div class="menu-btn">
       <nav id="caixa_menu">
+        <span class="tbar"></span>
+        <span class="bbar"></span>
       </nav>
     </div>
 
     <nav>
       <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
       <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
-    <div class="content-menu">
+    <div class="content-menu hide-content">
+      <div class="btn-close">Tancar</div>
       <button id="inici"><b><a href="index.php">Inici</a></b></button>
-      <button id="idioma"><b>Idioma</b></button>
       <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
     </div>
     </nav>
