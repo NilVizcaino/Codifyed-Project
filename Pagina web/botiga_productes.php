@@ -19,7 +19,7 @@
     }
 
     #hardware:hover{
-      width:665px;
+      width:670px;
       height:440px;
     }
 
@@ -31,7 +31,7 @@
     }
 
     #software:hover{
-      width:440px;
+      width:445px;
       height:440px;
     }
 
