@@ -13,19 +13,17 @@ section{
   position:relative;
   width:480px;
   height:350px;
-  transform:translate(10%, -50%);
-  margin-top:50vh;
+  transform:translate(10%, -33%);
+  margin-top:40vh;
   margin-left:50vw;
-  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap:10px;
-  grid-row-gap:10px;
 }
 
 article{
   display:flex;
   position:relative;
   background-color:var(--blau_cel);
+  font-size: 1.5rem;
   justify-content:center;
   align-items:center;
 }
@@ -100,8 +98,8 @@ a {
 <div id="titol_atencio"><h6>Atenció al client</h6></div>
 
 <section>
-  <article>Contacta amb nosaltres telf:927 396 223</article>
-  <article>Contacta amb nosaltres correu:CStaffSuport@service.com</article>
+  <article>Contacta amb nosaltres telefon: 927 396 223</article>
+  <article>Contacta amb nosaltres correu: CStaffSuport@service.com</article>
 </section>
 
 <div id="chat">
