@@ -80,7 +80,7 @@
     button#enviar{
       position: absolute;
       background-color:var(--verd);
-      top:80vh;
+      top:650px;
       right:500px;
       height: 32px;
       width:130px;
@@ -93,6 +93,10 @@
 
     button#enviar:hover{
       background-color: var(--turquessa);
+    }
+
+    #espai{
+      height: 100px;
     }
 
     </style>
@@ -116,5 +120,8 @@
 
     <button type="button" id="enviar">enviar</button>
     </div>
+    <div id="espai"></div>
   </body>
 </html>
+
+<?php include("footer.php") ?>
