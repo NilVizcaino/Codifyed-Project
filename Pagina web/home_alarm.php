@@ -123,7 +123,7 @@ h1{
 
 <div id="preu">
 
-<h8 id="pre">400€</h8>
+<h8 id="pre"><b>400€</b></h8>
 
 </div>
 
