@@ -3,14 +3,44 @@
 <style>
 
 #titol_atencio{
-margin:-40px 0px 450px -900px;
+  position: absolute;
+  top: 170px;
+  left: 75px;
+}
+
+section{
+  display:grid;
+  position:relative;
+  width:480px;
+  height:350px;
+  transform:translate(10%, -50%);
+  margin-top:50vh;
+  margin-left:50vw;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap:10px;
+  grid-row-gap:10px;
+}
+
+article{
+  display:flex;
+  position:relative;
+  background-color:var(--blau_cel);
+  justify-content:center;
+  align-items:center;
+}
+
+#chat{
+  position: absolute;
+  top: 300px;
+  left: 75px;
 }
 
 body {
     font:12px arial;
     color: #222;
     text-align:center;
-    padding:35px; }
+   }
 
 form, p, span {
     margin:0;
@@ -69,10 +99,16 @@ a {
 
 <div id="titol_atencio"><h6>Atenció al client</h6></div>
 
+<section>
+  <article>Contacta amb nosaltres telf:927 396 223</article>
+  <article>Contacta amb nosaltres correu:CStaffSuport@service.com</article>
+</section>
+
+<div id="chat">
 <div id="wrapper">
 <div id="menu">
-    <p class="welcome">Welcome, <b></b></p>
-    <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+    <p class="welcome">Chat en directe <b></b></p>
+    <p class="logout"><a id="exit" href="#">Surt del chat</a></p>
     <div style="clear:both"></div>
 </div>
 
@@ -80,7 +116,7 @@ a {
 
 <form name="message" action="">
     <input name="usermsg" type="text" id="usermsg" size="63" />
-    <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    <input name="submitmsg" type="submit"  id="submitmsg" value="Envia" />
 </form>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
@@ -90,6 +126,7 @@ $(document).ready(function(){
 
 });
 </script>
+</div>
 
 
 </body>
