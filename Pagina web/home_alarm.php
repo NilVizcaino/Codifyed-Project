@@ -19,7 +19,7 @@ h1{
 
 #estrela1{
   position: absolute;
-  top: 300px;
+  top: 285px;
   right: 665px;
   width: 30px;
   height: 30px;
@@ -27,7 +27,7 @@ h1{
 
 #estrela2{
   position: absolute;
-  top: 300px;
+  top: 285px;
   right: 630px;
   width: 30px;
   height: 30px;
@@ -35,7 +35,7 @@ h1{
 
 #estrela3{
   position: absolute;
-  top: 300px;
+  top: 285px;
   right: 595px;
   width: 30px;
   height: 30px;
@@ -43,7 +43,7 @@ h1{
 
 #estrela4{
   position: absolute;
-  top: 300px;
+  top: 285px;
   right: 560px;
   width: 30px;
   height: 30px;
@@ -51,7 +51,7 @@ h1{
 
 #estrela5{
   position: absolute;
-  top: 300px;
+  top: 285px;
   right: 525px;
   width: 30px;
   height: 30px;
@@ -63,10 +63,7 @@ h1{
   right: 45px;
   width: 650px;
   height: 30px;
-}
-
-#p{
-  font-size: 0.5rem;
+  font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -117,9 +114,9 @@ h1{
 
 <p>El sistema d'alarma per la casa Home Alarm és l'alarma connectada i sense mensualitats més versàtil i completa del mercat. Els seus 3 detectors dobertura i intrusió Intellitag juntament amb el seu sensor de moviment són capaços de detectar una intrusió.</p>
 
-<p>✔ Compatible amb Google Home i Amazon Alexa mitjançant IFTTT</p>
-<p>✔ Desactivació automàtica mitjançant funció GPS o amb identificació del comandament Keyfob en obrir la porta</p>
-<p>✔ Notificacions de correu electrònic, Push i SMS gratuïtes en cas d'intrusió</p> </div>
+<p>✔ Compatible amb Google Home i Amazon Alexa mitjançant IFTTT.</p>
+<p>✔ Desactivació automàtica mitjançant funció GPS o amb identificació del comandament Keyfob en obrir la porta.</p>
+<p>✔ Notificacions de correu electrònic, Push i SMS gratuïtes en cas d'intrusió.</p> </div>
 
 <div id="preu">
 
