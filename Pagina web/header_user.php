@@ -29,7 +29,7 @@
     #carrito{
       position: absolute;
       top:10%;
-      right:160px;
+      right:140px;
       height: 75px;
       width:130px;
       font-size:1.25rem;
@@ -42,7 +42,7 @@
     #perfil{
       position: absolute;
       top:10%;
-      right:50px;
+      right:20px;
       height: 75px;
       width:130px;
       font-size:1.25rem;
