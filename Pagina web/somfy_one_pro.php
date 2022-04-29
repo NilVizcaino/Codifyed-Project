@@ -11,7 +11,7 @@ h1{
 
 #foto{
   position: absolute;
-  width: 400px;
+  width: 450px;
   height: 400px;
   top: 230px;
   left: 125px;
@@ -103,7 +103,7 @@ h1{
 
   <h1> SOMFY ONE PRO</h1>
 
-  <img id="foto" src="home_alarm.png"/>
+  <img id="foto" src="SomfyOnePro.png"/>
   <img id="estrela1" src="estrella.png"/>
   <img id="estrela2" src="estrella.png"/>
   <img id="estrela3" src="estrella.png"/>
@@ -112,15 +112,15 @@ h1{
 
   <div id="descripcio">
 
-<p>El sistema d'alarma per la casa Home Alarm és l'alarma connectada i sense mensualitats més versàtil i completa del mercat. Els seus 3 detectors dobertura i intrusió Intellitag juntament amb el seu sensor de moviment són capaços de detectar una intrusió.</p>
+<p>El Pack Somfy One Pro és el sistema d'alarma connectada ideal per a llars urbanes. Aquest sistema d'alarma també et protegeix davant d'amenaces internes com a incendis gràcies als seus 2 detectors de fum Somfy protect inclosos que es comuniquen entre si i t'alerten de qualsevol possible incident incendiari</p>
 
-<p>✔ Compatible amb Google Home i Amazon Alexa mitjançant IFTTT</p>
-<p>✔ Desactivació automàtica mitjançant funció GPS o amb identificació del comandament Keyfob en obrir la porta</p>
-<p>✔ Notificacions de correu electrònic, Push i SMS gratuïtes en cas d'intrusió</p> </div>
+<p>✔ Camera HD amb sensor de movimient</p>
+<p>✔ Sirena de 90 dB</p>
+<p>✔ 2 Detectors de fum</p> </div>
 
 <div id="preu">
 
-<h8 id="pre"><b>400€</b></h8>
+<h8 id="pre"><b>520€</b></h8>
 
 </div>
 
