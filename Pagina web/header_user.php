@@ -23,6 +23,36 @@
       });
 
     </script>
+
+    <style>
+
+    #carrito{
+      position: absolute;
+      top:10%;
+      right:160px;
+      height: 75px;
+      width:130px;
+      font-size:1.25rem;
+      font-weight:700;
+      color:white;
+      line-height:2rem;
+      outline: none;
+    }
+
+    #perfil{
+      position: absolute;
+      top:10%;
+      right:50px;
+      height: 75px;
+      width:130px;
+      font-size:1.25rem;
+      font-weight:700;
+      color:white;
+      line-height:2rem;
+      outline: none;
+    }
+
+    </style>
   </head>
 <body>
   <a name="capçalera"></a>
@@ -35,8 +65,12 @@
     </div>
 
     <nav>
-      <img id="carrito" src=""/>
-      <img id="perfil" src=""/>
+      <button>
+      <img id="carrito" src="cistella.svg"/>
+      </button>
+      <button>
+      <img id="perfil" src="profile.svg"/>
+    </button>
 
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
