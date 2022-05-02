@@ -49,7 +49,7 @@ if (isset($_GET["correu"]))
     $db = new DB();
       $resposta =$db->selectUsuari($correu);
     if ($correu == $resposta["correu"] && $password == $resposta["contrasenya"])
-    header("Location: index.php");
+    header("Location: index_user.php");
     else
     echo "<alert>LOGIN INCORRECETE";
 }
