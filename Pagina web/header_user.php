@@ -26,7 +26,7 @@
 
     <style>
 
-    #carrito{
+    #cistella{
       position: absolute;
       top:10%;
       right:140px;
@@ -66,7 +66,7 @@
 
     <nav>
       <button>
-      <img id="carrito" src="cistella.svg"/>
+      <img id="cistella" src="cistella.svg"/>
       </button>
       <button>
       <img id="perfil" src="profile.svg"/>
