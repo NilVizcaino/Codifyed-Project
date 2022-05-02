@@ -68,9 +68,10 @@
       <button>
       <img id="cistella" src="cistella.svg"/>
       </button>
+
       <button>
       <img id="perfil" src="profile.svg"/>
-    </button>
+      </button>
 
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
