@@ -68,7 +68,7 @@ h1{
 
 #preu{
   position: absolute;
-  top: 710px;
+  top: 730px;
   left:140px;
 }
 
@@ -84,7 +84,7 @@ h1{
   color: white;
   font-size: 1.5rem;
   font-family: "Josefin Sans", sans-serif;
-  top: 770px;
+  top: 800px;
   left:140px;
   width: 300px;
   height: 50px;
