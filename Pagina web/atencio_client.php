@@ -22,8 +22,10 @@ section{
 article{
   display:flex;
   position:relative;
+  border-radius:15px;
   background-color:var(--blau_cel);
   font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
   justify-content:center;
   align-items:center;
 }
@@ -98,8 +100,8 @@ a {
 <div id="titol_atencio"><h6>Atenció al client</h6></div>
 
 <section>
-  <article>Contacta amb nosaltres telefon: 927 396 223</article>
-  <article>Contacta amb nosaltres correu: CStaffSuport@service.com</article>
+  <article><b>Contacta amb nosaltres telefon: <p>927 396 223</p></b></article>
+  <article><b>Contacta amb nosaltres correu: CStaffSuport@service.com</b></article>
 </section>
 
 <div id="chat">
