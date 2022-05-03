@@ -11,7 +11,7 @@ h1{
 #foto{
   position: absolute;
   width: 430px;
-  height:500px;
+  height:530px;
   top: 200px;
   left: 105px;
 }
