@@ -107,6 +107,7 @@ h1{
   <img id="estrela2" src="estrella.png"/>
   <img id="estrela3" src="estrella.png"/>
   <img id="estrela4" src="estrella.png"/>
+  <img id="estrela5" src="estrella.png"/>
   <div id="descripcio">
 
 
