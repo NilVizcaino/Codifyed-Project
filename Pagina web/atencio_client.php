@@ -28,31 +28,36 @@ article{
   font-family: "Josefin Sans", sans-serif;
   justify-content:center;
   align-items:center;
+  text-decoration:none;
 }
 
 #chat{
   position: absolute;
   top: 300px;
   left: 75px;
+  text-decoration:none;
 }
 
 body {
     font:12px arial;
     color: #222;
     text-align:center;
+    text-decoration:none;
    }
 
 form, p, span {
     margin:0;
-    padding:0; }
+    padding:0;
+  text-decoration:none; }
 
-input { font:12px arial; }
+input { font:12px arial;
+text-decoration:none; }
 
 a {
     color:#0000FF;
     text-decoration:none; }
 
-    a:hover { text-decoration:underline; }
+    a:hover { text-decoration:none; }
 
 #wrapper, #loginform {
     margin:0 auto;

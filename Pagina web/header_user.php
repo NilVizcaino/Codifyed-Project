@@ -20,6 +20,7 @@
             $(".content-menu").toggleClass("show-content")
         });
 
+
         $(".menu-user-btn").click(function(){
           $(".content-user-menu").toggleClass("show-user-content")
           $(".content-user-menu").toggleClass("hide-user-content");
@@ -29,6 +30,18 @@
           $(".content-user-menu").toggleClass("hide-user-content");
             $(".content-user-menu").toggleClass("show-user-content")
         });
+
+
+        $(".menu-cistella-btn").click(function(){
+          $(".content-cistella-menu").toggleClass("show-cistella-content")
+          $(".content-cistella-menu").toggleClass("hide-cistella-content");
+        });
+
+        $(".btn-cistella-close").click(function(){
+          $(".content-cistella-menu").toggleClass("hide-cistella-content");
+            $(".content-cistella-menu").toggleClass("show-cistella-content")
+        });
+
 
       });
 
@@ -77,7 +90,7 @@
 
     <nav>
       <button>
-      <img id="cistella" src="cistella.svg"/>
+      <img id="cistella" src="cistella.svg" class="menu-cistella-btn"/>
       </button>
 
       <button>
@@ -96,6 +109,11 @@
       <button id="inici"><b></b></button>
       <button id="inici"><b><a href="perfil.php">Configuració</a></b></button>
       <button id="qui"><a href="index.php"><b>Tancar sesió</b></a></button>
+    </div>
+
+    <div class="content-cistella-menu hide-cistella-content">
+      <div class="btn-cistella-close">Tancar</div>
+      <button id="inici"><b><a href="perfil.php">Configuració</a></b></button>
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
