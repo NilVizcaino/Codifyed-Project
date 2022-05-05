@@ -87,7 +87,7 @@
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
       <button id="qui"></button>
-      <button id="inici"><b><a href="index.php">Inici</a></b></button>
+      <button id="inici"><b><a href="index_user.php">Inici</a></b></button>
       <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
     </div>
 
