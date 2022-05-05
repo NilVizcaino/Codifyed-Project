@@ -108,7 +108,6 @@ a {
 <div id="wrapper">
 <div id="menu">
     <p class="welcome">Chat en directe <b></b></p>
-    <p class="logout"><a id="exit" href="#">Surt del chat</a></p>
     <div style="clear:both"></div>
 </div>
 

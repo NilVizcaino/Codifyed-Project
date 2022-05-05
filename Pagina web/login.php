@@ -17,6 +17,11 @@
       align-items:center;
       border-radius: 25px;
     }
+
+    #caixa{
+      font-family:"Josefin Sans", sans-serif ;
+      font-size: 1.7rem;
+    }
 </style>
 </head>
 
