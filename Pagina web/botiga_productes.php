@@ -4,34 +4,35 @@
     div#wrapp{
       display:grid;
       position:relative;
-      width:70vw;
-      height:300px;
-      margin:-20px 110px 200px 125px;
+      width:auto;
+      height:auto;
+      background-color: transparent;
+      margin:-20px 110px 90px 125px;
       grid-template-columns:1fr 1fr;
       grid-column-gap:25px;
     }
 
     #hardware{
-      width:650px;
+      width:700px;
       height:425px;
       cursor:pointer;
       transition: all 300ms ease;
     }
 
     #hardware:hover{
-      width:670px;
-      height:440px;
+      width:725px;
+      height:450px;
     }
 
     #software{
-      width:425px;
+      width:455px;
       height:425px;
       cursor:pointer;
       transition: all 300ms ease;
     }
 
     #software:hover{
-      width:445px;
+      width:485px;
       height:440px;
     }
 

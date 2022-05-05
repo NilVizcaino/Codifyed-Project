@@ -5,9 +5,9 @@
   #wrapp{
     display:grid;
     position:relative;
-    width:70vw;
-    height:300px;
-    margin:-20px 110px 200px 125px;
+    width:auto;
+    height:auto;
+    margin:-20px 110px 70px 125px;
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap:25px;
     transition: all 300ms ease
