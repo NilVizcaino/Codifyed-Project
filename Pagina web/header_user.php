@@ -95,7 +95,7 @@
       <div class="btn-user-close">Tancar</div>
       <button id="inici"><b></b></button>
       <button id="inici"><b><a href="index.php">Configuració</a></b></button>
-      <button id="qui"><a href="qui_som.php"><b>Tancar sesió</b></a></button>
+      <button id="qui"><a href="index.php"><b>Tancar sesió</b></a></button>
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
