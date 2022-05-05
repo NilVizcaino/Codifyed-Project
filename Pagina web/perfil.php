@@ -2,10 +2,19 @@
 
 <style>
 
+  #perfil_nom{
+    position: absolute;
+    top: 145px;
+    left: 180px;
+    height: 75px;
+    width:75px;
+    font-size:3rem;
+  }
+
   h1{
     position: absolute;
     top: 115px;
-    left: 185px;
+    left: 275px;
     font-size:3rem;
   }
 
@@ -171,6 +180,8 @@
 <body>
 
   <h1>Salle1</h1>
+
+  <img id="perfil_nom" src="profile.svg"/>
 
   <div id="nom">
     <p> Nom d'usuari:</p>
