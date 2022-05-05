@@ -20,6 +20,16 @@
             $(".content-menu").toggleClass("show-content")
         });
 
+        $(".menu-user-btn").click(function(){
+          $(".content-user-menu").toggleClass("show-user-content")
+          $(".content-user-menu").toggleClass("hide-user-content");
+        });
+
+        $(".btn-user-close").click(function(){
+          $(".content-user-menu").toggleClass("hide-user-content");
+            $(".content-user-menu").toggleClass("show-user-content")
+        });
+
       });
 
     </script>
@@ -64,6 +74,11 @@
       </nav>
     </div>
 
+    <div class="menu-user-btn">
+      <nav id="caixa_menu-user">
+      </nav>
+    </div>
+
     <nav>
       <button>
       <img id="cistella" src="cistella.svg"/>
@@ -76,6 +91,12 @@
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
       <button id="qui"></button>
+      <button id="inici"><b><a href="index.php">Inici</a></b></button>
+      <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
+    </div>
+
+    <div class="content-user-menu hide-user-content">
+      <div class="btn-user-close">Tancar</div>
       <button id="inici"><b><a href="index.php">Inici</a></b></button>
       <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
     </div>
