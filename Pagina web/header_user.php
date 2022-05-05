@@ -74,10 +74,6 @@
       </nav>
     </div>
 
-    <div class="menu-user-btn">
-      <nav id="caixa_menu-user">
-      </nav>
-    </div>
 
     <nav>
       <button>
@@ -85,7 +81,7 @@
       </button>
 
       <button>
-      <img id="perfil" src="profile.svg"/>
+      <img class="menu-user-btn" id="perfil" src="profile.svg"/>
       </button>
 
     <div class="content-menu hide-content">
@@ -97,8 +93,9 @@
 
     <div class="content-user-menu hide-user-content">
       <div class="btn-user-close">Tancar</div>
-      <button id="inici"><b><a href="index.php">Inici</a></b></button>
-      <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
+      <button id="inici"><b></b></button>
+      <button id="inici"><b><a href="index.php">Configuració</a></b></button>
+      <button id="qui"><a href="qui_som.php"><b>Tancar sesió</b></a></button>
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
