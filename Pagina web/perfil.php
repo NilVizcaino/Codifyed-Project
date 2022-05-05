@@ -10,7 +10,7 @@
   }
 
   #espai{
-    height: 750px;
+    height: 550px;
   }
 
   #nom{
@@ -77,6 +77,93 @@
         height: 30px;
       }
 
+      #contrasenya{
+          position: absolute;
+          top: 460px;
+          left:185px;
+          width: 650px;
+          height: 30px;
+          font-size: 2rem;
+          font-family: "Josefin Sans", sans-serif;
+       }
+
+       #editar_contrasenya{
+           position: absolute;
+           top: 460px;
+           left:390px;
+           width: 190px;
+           height: 30px;
+           border-style: solid;
+           border-radius: 5px;
+           padding-left: 15px;
+           font-size: 2rem;
+           font-family: "Josefin Sans", sans-serif;
+        }
+
+        #editar3{
+          display: block;
+          position: absolute;
+          top: 462px;
+          left:560px;
+          width: 30px;
+          height: 30px;
+        }
+
+        #punts{
+          display: block;
+          position: absolute;
+          top: 462px;
+          left:410px;
+          width: 30px;
+          height: 30px;
+        }
+
+        #punts1{
+          display: block;
+          position: absolute;
+          top: 462px;
+          left:445px;
+          width: 30px;
+          height: 30px;
+        }
+
+        #punts2{
+          display: block;
+          position: absolute;
+          top: 462px;
+          left:480px;
+          width: 30px;
+          height: 30px;
+        }
+
+        #guardar{
+          position: absolute;
+          background-color:var(--verd);
+          top:560px;
+          left:185px;
+          height: 32px;
+          width:130px;
+          font-size:1.25rem;
+          font-weight:700;
+          color:white;
+          line-height:2rem;
+          outline: none;
+        }
+
+        #cancelar{
+          position: absolute;
+          background-color:var(--verd);
+          top:560px;
+          left:335px;
+          height: 32px;
+          width:130px;
+          font-size:1.25rem;
+          font-weight:700;
+          color:white;
+          line-height:2rem;
+          outline: none;
+        }
+
 
 </style>
 
@@ -102,6 +189,20 @@
     salle1@gmail.com
   </div>
   <img id="editar2" src="edit.png"/>
+
+  <div id="contrasenya">
+    <p> Contrasenya:</p>
+  </div>
+
+  <div id="editar_contrasenya">
+  </div>
+  <img id="editar3" src="edit.png"/>
+  <img id="punts" src="punts.png"/>
+  <img id="punts1" src="punts.png"/>
+  <img id="punts2" src="punts.png"/>
+
+  <button id="guardar">Guardar</button>
+  <button id="cancelar">Cancelar</button>
 
   <div id="espai">
   </div>
