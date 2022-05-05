@@ -16,7 +16,10 @@ div#caixa2{
     justify-content:center;
     align-items:center;
     border-radius: 25px;
+    font-family:"Josefin Sans", sans-serif ;
+    font-size: 1.7rem;
   }
+
 </style>
 </head>
 
