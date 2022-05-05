@@ -106,6 +106,14 @@
       height: 100px;
     }
 
+    #div_paragref_qui_som{
+      height: 400px;
+      width: auto;
+      margin: 30px 30px 30px 30px;
+      font-size: 2rem;
+      font-family: "Josefin Sans", sans-serif;
+    }
+
     </style>
   </head>
   <body>
@@ -117,7 +125,7 @@
     <p>En aquesta secció podrás contactar amb nosaltres per explicar-nos de una forma més detallada quin problema hi ha present en els teus dispositius. Recorda adjuntar captures i descripcións detallades del problema, a part de que és necesari que omplis totes les parts importants de informació per poder enviar la solicitud de revisió.</p>
 
     <h2>Informació del problema:</h2>
-    <textarea name="comentario" rows="14" cols="65"></textarea>
+    <textarea name="comentario" rows="8" cols="40"></textarea>
 
     <div id="envolcall_dades_personals">
     <h2>Dades generals:</h2>
