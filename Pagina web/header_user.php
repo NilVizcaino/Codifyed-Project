@@ -113,7 +113,10 @@
 
     <div class="content-cistella-menu hide-cistella-content">
       <div class="btn-cistella-close">Tancar</div>
-      <button id="inici"><b><a href="perfil.php">Configuració</a></b></button>
+      <div id="text_producte"><img class="relleno" src="relleno.png"/></div>
+      <div id="text_producte"><img class="producte_alarma" src="domo.png"/>x2 Domo ip</div>
+      <div id="text_producte"><img class="producte_sai" src="coneptronic_sai.png"/> x1 Conceptronic</div>
+
     </div>
     </nav>
     <img class="logo" src="logo.svg"/>
