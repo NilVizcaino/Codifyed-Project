@@ -8,6 +8,8 @@
   left: 75px;
 }
 
+xd
+
 section{
   display:grid;
   position:relative;
