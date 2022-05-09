@@ -17,17 +17,20 @@
   #codex:hover{
     width:370px;
     height:470px;
+    transition: all 300ms ease;
   }
 
   #codex_premium:hover{
     width:370px;
     height:470px;
+    transition: all 300ms ease;
   }
 
 
   #codex_reforced:hover{
     width:370px;
     height:470px;
+    transition: all 300ms ease;
   }
 
   </style>
