@@ -40,6 +40,7 @@
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
       <button id="qui"></button>
+      <button id="inici"><b></b></button>
       <button id="inici"><b><a href="index.php">Inici</a></b></button>
       <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
       <button id="on_som"><a href="https://www.google.es/maps/@41.4035359,2.1371051,3a,75y,235.03h,85.64t/data=!3m6!1e1!3m4!1sN78Dgf8D7IZYmqCls0DaWQ!2e0!7i16384!8i8192?hl=es"><b>On Som?</b></a></button>
