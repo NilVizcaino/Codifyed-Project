@@ -5,24 +5,51 @@
     <title>comprar</title>
     <style>
 
-      #Warp_General_Coprar{
-        display:block;
-        position:relative;
-        width:900px;
-        height:600px;
-        background-color:var(--blau_cel);
-        border-radius:10px;
-        transform:translate(-50%, -10%);
-        left:50vw;
-        top:0vh;
-        cursor:pointer;
-        transition: all 400ms ease;
-      }
+    div#wrapp{
+      display:grid;
+      position:relative;
+      width:70vw;
+      height:auto;
+      margin:0px auto 90px auto;
+      background-color: var(--blau_cel);
+      grid-template-columns: 30% calc(70% - 10px);
+      grid-column-gap:10px;
+      border-radius: 10px;
+    }
+
+    #foto-content, #contenido{
+      display:flex;
+      position:relative;
+      height: auto;
+
+      background-color:blue;
+      margin:10px 10px 10px 10px;
+      justify-content:center;
+      align-items:center;
+      border-radius: 10px;
+    }
+
+    #foto{
+      position: absolute;
+      width: 240px;
+      height:330px;
+    }
+
 
     </style>
   </head>
   <body>
-    <div id="Warp_General_Coprar"></div>
+    <div id="wrapp">
+      <div id="foto-content"><img id="foto" src="codex.png"/></div>
+      <div id="contenido"><h1>Body Area</h1></div>
+
+      <div id="foto-content"><h2>Side bar</h2></div>
+      <div id="contenido"><h1>Body Area</h1></div>
+
+      <div id="foto-content"><h2>Side bar</h2></div>
+      <div id="contenido"><h1>Body Area</h1></div>
+
+    </div>
 
   </body>
 </html>
