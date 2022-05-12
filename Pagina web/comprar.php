@@ -8,7 +8,7 @@
     div#wrapp{
       display:grid;
       position:relative;
-      width:70vw;
+      width:50vw;
       height:auto;
       margin:0px auto 90px auto;
       background-color: var(--blau_cel);
@@ -17,12 +17,32 @@
       border-radius: 10px;
     }
 
-    #foto-content, #contenido{
+    #foto-content{
+      display:flex;
+      position:relative;
+      height: 180px;
+      width: auto;
+      background-color:;
+      margin:10px 10px 10px 10px;
+      justify-content:center;
+      align-items:center;
+      border-radius: 10px;
+    }
+
+    #contenido{
       display:flex;
       position:relative;
       height: auto;
+      background-color:;
+      margin:10px 10px 10px 10px;
+      border-radius: 10px;
+    }
 
-      background-color:blue;
+    #foto-content-antivirus{
+      display:flex;
+      position:relative;
+      height: 300px;
+      background-color:transparent;
       margin:10px 10px 10px 10px;
       justify-content:center;
       align-items:center;
@@ -31,8 +51,14 @@
 
     #foto{
       position: absolute;
-      width: 240px;
-      height:330px;
+      width: 220px;
+      height:300px;
+    }
+
+    #foto_sai{
+      position: absolute;
+      width: 220px;
+      height:220px;
     }
 
 
@@ -40,14 +66,11 @@
   </head>
   <body>
     <div id="wrapp">
-      <div id="foto-content"><img id="foto" src="codex.png"/></div>
-      <div id="contenido"><h1>Body Area</h1></div>
+      <div id="foto-content-antivirus"><img id="foto" src="codex.png"/></div>
+      <div id="contenido">Body Area</div>
 
-      <div id="foto-content"><h2>Side bar</h2></div>
-      <div id="contenido"><h1>Body Area</h1></div>
-
-      <div id="foto-content"><h2>Side bar</h2></div>
-      <div id="contenido"><h1>Body Area</h1></div>
+      <div id="foto-content"><img id="foto_sai" src="coneptronic_sai_nobackground.png"/></div>
+      <div id="contenido">Body Area</div>
 
     </div>
 

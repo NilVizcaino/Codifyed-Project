@@ -114,7 +114,7 @@
 
     <div class="content-cistella-menu hide-cistella-content">
       <div class="btn-cistella-close">Tancar</div>
-      <div class="btn-comprar">Comprar</div>
+      <div class="btn-comprar"><a href="comprar.php">Comprar</a></div>
       <div id="text_producte"><img class="relleno" src="relleno.png"/></div>
       <div id="text_producte"><img class="producte_alarma" src="domo.png"/>x2 Domo ip</div>
       <div id="text_producte"><img class="producte_sai" src="coneptronic_sai.png"/> x1 Conceptronic</div>
