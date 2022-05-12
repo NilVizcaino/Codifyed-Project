@@ -9,8 +9,8 @@
       display:grid;
       position:relative;
       width:50vw;
-      height:auto;
-      margin:0px auto 90px auto;
+      height:700px;
+      margin:0px auto 200px auto;
       background-color: var(--blau_cel);
       grid-template-columns: 30% calc(70% - 10px);
       grid-column-gap:10px;
@@ -66,7 +66,7 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      top: 525px;
+      top: 725px;
       left:500px;
     }
 
@@ -75,7 +75,7 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      top: 525px;
+      top: 725px;
       left:560px;
     }
 
@@ -84,14 +84,14 @@
       position: absolute;
       width: 80px;
       height: 80px;
-      top: 512px;
+      top: 712px;
       left:620px;
     }
 
     h11{
       display: block;
       position: absolute;
-      top: 532px;
+      top: 732px;
       font-size: 2rem;
       font-family: "Josefin Sans", sans-serif;
     }
@@ -100,6 +100,7 @@
     </style>
   </head>
   <body>
+
     <div id="wrapp">
       <div id="foto-content-antivirus"><img id="foto" src="codex.png"/></div>
       <div id="contenido">CODEX <p>Software Antivirus</p></div>
