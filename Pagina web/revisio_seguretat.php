@@ -129,7 +129,7 @@
 
     <div id="envolcall_dades_personals">
     <h2>Dades generals:</h2>
-    <P>Asumpte:  <INPUT id="asumpte" type="text" name="asumpte">
+    <P>Assumpte:  <INPUT id="asumpte" type="text" name="asumpte">
     <P>Nom i Cognoms:  <INPUT id="Nom_i_Cognoms" type="text" name="nom">
     <P>Num de telèfon:  <INPUT id="Num_Telèfon" type="text" name="telefon">
       <button type="button" id="enviar">enviar</button>

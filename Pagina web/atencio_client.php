@@ -105,7 +105,7 @@ a {
 <div id="titol_atencio"><h6>Atenció al client</h6></div>
 
 <section>
-  <article><b>Contacta amb nosaltres telefon: <p>927 396 223</p></b></article>
+  <article><b>Contacta amb nosaltres telèfon: <p>927 396 223</p></b></article>
   <article><b>Contacta amb nosaltres correu: CStaffSuport@service.com</b></article>
 </section>
 
