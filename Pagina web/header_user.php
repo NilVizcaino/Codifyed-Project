@@ -116,8 +116,8 @@
       <div class="btn-cistella-close">Tancar</div>
       <div class="btn-comprar"><a href="comprar.php" style="color:white">Comprar</a></div>
       <div id="text_producte"><img class="relleno" src="relleno.png"/></div>
-      <div id="text_producte"><img class="producte_alarma" src="Codex.png"/>x1 Codex</div>
-      <div id="text_producte"><img class="producte_sai" src="coneptronic_sai.png"/> x1 Conceptronic</div>
+      <div id="text_producte_codex"><img class="producte_codex" src="Codex.png"/>x1 Codex</div>
+      <div id="text_producte"><img class="producte_sai" src="coneptronic_sai_nobackground.png"/> x1 Conceptronic</div>
 
     </div>
     </nav>
