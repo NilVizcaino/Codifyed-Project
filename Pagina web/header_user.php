@@ -102,6 +102,7 @@
       <button id="qui"></button>
       <button id="inici"><b><a href="index_user.php">Inici</a></b></button>
       <button id="qui"><a href="qui_som.php"><b>Qui Som?</b></a></button>
+        <button id="on_som"><a href="https://www.google.es/maps/@41.4035359,2.1371051,3a,75y,235.03h,85.64t/data=!3m6!1e1!3m4!1sN78Dgf8D7IZYmqCls0DaWQ!2e0!7i16384!8i8192?hl=es"><b>On Som?</b></a></button>
     </div>
 
     <div class="content-user-menu hide-user-content">
@@ -113,6 +114,7 @@
 
     <div class="content-cistella-menu hide-cistella-content">
       <div class="btn-cistella-close">Tancar</div>
+      <div class="btn-comprar">Comprar</div>
       <div id="text_producte"><img class="relleno" src="relleno.png"/></div>
       <div id="text_producte"><img class="producte_alarma" src="domo.png"/>x2 Domo ip</div>
       <div id="text_producte"><img class="producte_sai" src="coneptronic_sai.png"/> x1 Conceptronic</div>
