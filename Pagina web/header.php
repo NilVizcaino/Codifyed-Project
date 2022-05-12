@@ -35,8 +35,8 @@
     </div>
 
     <nav>
-      <button id="registrar-se"><a href="registre.php">Registrar-se</a></button>
-      <button id="unoa"><a  href="login.php">Iniciar sessió</a></button>
+      <button id="registrar-se"><a href="registre.php" style="color:white">Registrar-se</a></button>
+      <button id="unoa"><a  href="login.php" style="color:white">Iniciar sessió</a></button>
     <div class="content-menu hide-content">
       <div class="btn-close">Tancar</div>
       <button id="qui"></button>
