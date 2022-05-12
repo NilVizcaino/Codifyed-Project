@@ -109,7 +109,7 @@
       <div class="btn-user-close">Tancar</div>
       <button id="inici"><b></b></button>
       <button id="inici"><b><a href="perfil.php" style="color:white">Configuració</a></b></button>
-      <button id="qui"><a href="index.php" style="color:white"><b>Tancar sesió</b></a></button>
+      <button id="qui"><a href="index.php" style="color:white"><b>Tancar sessió</b></a></button>
     </div>
 
     <div class="content-cistella-menu hide-cistella-content">

@@ -122,7 +122,7 @@
     </div>
 
     <div id=div_paragref_qui_som>
-    <p>En aquesta secció podrás contactar amb nosaltres per explicar-nos de una forma més detallada quin problema hi ha present en els teus dispositius. Recorda adjuntar captures i descripcións detallades del problema, a part de que és necesari que omplis totes les parts importants de informació per poder enviar la solicitud de revisió.</p>
+    <p>En aquesta secció podrás contactar amb nosaltres per explicar-nos de una forma més detallada quin problema hi ha present en els teus dispositius. Recorda adjuntar captures i descripcións detallades del problema, a part de que és necessari que omplis totes les parts importants de informació per poder enviar la solicitud de revisió.</p>
 
     <h2>Informació del problema:</h2>
     <textarea name="comentario" rows="8" cols="40"></textarea>
