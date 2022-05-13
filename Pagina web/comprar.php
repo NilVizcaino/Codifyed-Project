@@ -103,10 +103,10 @@
 
     <div id="wrapp">
       <div id="foto-content-antivirus"><img id="foto" src="codex.png"/></div>
-      <div id="contenido">CODEX <p>Software Antivirus</p></div>
+      <div id="contenido">CODEX Antivirus</div>
 
       <div id="foto-content"><img id="foto_sai" src="coneptronic_sai_nobackground.png"/></div>
-      <div id="contenido">Body Area</div>
+      <div id="contenido">CONCEPTRONIC</div>
 
       <h11><b>Seleccioni un metode de pagament:</b></h11>
 
