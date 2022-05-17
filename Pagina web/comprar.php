@@ -17,6 +17,23 @@
       border-radius: 10px;
     }
 
+    div#wrapp-total-prize{
+      display:block;
+      position:relative;
+      width:9vw;
+      height:25px;
+      top:-190px;
+      margin:0px auto 20px auto;
+      background-color:  var(--verd);
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      color: white;
+      font-size: 1.5rem;
+      font-family: "Josefin Sans", sans-serif;
+      padding:30px;
+    }
+
     #foto-content{
       display:flex;
       position:relative;
@@ -143,9 +160,8 @@
       <img id="paypal" src="paypal.png">
       <img id="targeta" src="targeta.png">
       <img id="paysafe" src="paysafe.png">
-
     </div>
-
+    <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
   </body>
 </html>
 <?php include("footer.php") ?>

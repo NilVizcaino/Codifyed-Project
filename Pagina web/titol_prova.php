@@ -95,7 +95,7 @@ a {
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 
 </style>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
 
 $('.txt').html(function(i, html) {
@@ -105,17 +105,13 @@ $('.txt').html(function(i, html) {
 });
 
 </script>
-
-
+</head>
 
 <body>
-
 <div class="container">
   <span class="txt anim-text-flow">How are you? Bacon ipsum dolor sit amet.</span>
 </div>
-
 <a target="_blank" href="https://www.hendrysadrak.com">@hendrysadrak</a>
-
 </body>
 
 </html>
