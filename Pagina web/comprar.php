@@ -92,7 +92,7 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      top: 725px;
+      top: 150px;
       left:560px;
     }
 
@@ -101,8 +101,8 @@
       position: absolute;
       width: 80px;
       height: 80px;
-      top: 712px;
-      left:620px;
+      top: 140px;
+      left:390px;
     }
 
     h11{
@@ -158,8 +158,8 @@
       <h11><b>Seleccioni un metode de pagament:</b></h11>
 
       <img id="paypal" src="paypal.png">
-      <img id="targeta" src="targeta.png">
-      <img id="paysafe" src="paysafe.png">
+      <section><a href="targeta.php"><img id="targeta" src="targeta.png"/></a></section>
+      <section><a href="paysafe.php"><img id="paysafe" src="paysafe.png"/></a></section>
     </div>
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
   </body>
