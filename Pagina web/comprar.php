@@ -3,8 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>comprar</title>
-    <style>
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script type="text/javascript">
 
+      $(document).ready(function(){
+
+        $("#paypal").click(function(){
+          $(".paypal-warp").toggleClass("show-content")
+          $(".paypal-warp").toggleClass("hide-content");
+        });
+      });
+
+    </script>
+
+    <style>
     div#wrapp{
       display:grid;
       position:relative;
@@ -85,6 +99,7 @@
       height: 50px;
       top: 725px;
       left:500px;
+      cursor:pointer;
     }
 
     #targeta{
@@ -92,7 +107,7 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      top: 150px;
+      top: 725px;
       left:560px;
     }
 
@@ -101,8 +116,8 @@
       position: absolute;
       width: 80px;
       height: 80px;
-      top: 140px;
-      left:390px;
+      top: 712px;
+      left:620px;
     }
 
     h11{
@@ -137,11 +152,114 @@
       font-family: "Josefin Sans", sans-serif;
     }
 
+    .paypal-warp{
+      position: fixed;
+      height: 60vh;
+      width: 130vh;
+      transform:translate(-50%, -50%);
+      left:50vw;
+      top:50vh;
+      opacity: 1;
+      transition:all 1s ease;
+      font-family:"Josefin Sans", sans-serif ;
+      font-size: 1.7rem;
+      transition:all 250ms ease;
+    }
+
+    .show-content{
+      opacity: 1;
+    }
+
+    .correu{
+      position: fixed;
+      height: 60vh;
+      width: 130vh;
+      left:4vw;
+      top:22vh;
+      transition:all 1s ease;
+      font-family:"Josefin Sans", sans-serif ;
+      font-size: 1.7rem;
+    }
+
+    .constrasenya{
+      position: fixed;
+      height: 60vh;
+      width: 130vh;
+      left:4vw;
+      top:33vh;
+      transition:all 1s ease;
+      font-family:"Josefin Sans", sans-serif ;
+      font-size: 1.7rem;
+    }
+
+    .iniciar-sesio-pagar{
+      position: fixed;
+      height: 8vh;
+      width: 50vh;
+      left:3.5vw;
+      top:43vh;
+      border-radius: 10px;
+      background-color: #3f70b6;
+      transition:all 1s ease;
+      font-family:"Josefin Sans", sans-serif ;
+      font-size: 2rem;
+      color: white;
+      padding-top: 30px;
+      padding-left: 100px;
+      cursor: pointer;
+    }
+
+    .Paypal-window{
+      height: 60vh;
+      width: 130vh;
+      transition:all 1s ease;
+    }
+
+    input#capcha{
+      font-size: 1.4rem;
+      height: 40px;
+      width: 300px;
+      font-family:"Josefin Sans", sans-serif ;
+      color:blue;
+      border-bottom-color: black;
+      border-top: none;
+      border-left: none;
+      border-right:  none;
+      outline:none;
+      margin-bottom: 20px;
+    }
+
+    input#capcha2{
+      font-size: 1.4rem;
+      height: 40px;
+      width: 235px;
+      font-family:"Josefin Sans", sans-serif ;
+      color:blue;
+      border-bottom-color: black;
+      border-top: none;
+      border-left: none;
+      border-right:  none;
+      outline:none;
+      margin-bottom: 20px;
+    }
+
+    .creu{
+      display:block;
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      right:2vw;
+      top:3.5vh;
+      border-radius: 50px;
+      background-color: #3f70b6;
+      cursor: pointer;
+      justify-content: center;
+      padding: 0;
+    }
 
     </style>
   </head>
   <body>
-
     <div id="wrapp">
       <div id="foto-content-antivirus"><img id="foto" src="codex.png"/></div>
       <div id="contenido">
@@ -154,14 +272,31 @@
         <div id="Titol_Producte"><b>CONCEPTRONIC</b></div>
         <div id="Preu_Producte"><b>200€</b></div>
       </div>
-
-      <h11><b>Seleccioni un metode de pagament:</b></h11>
-
       <img id="paypal" src="paypal.png">
-      <section><a href="targeta.php"><img id="targeta" src="targeta.png"/></a></section>
-      <section><a href="paysafe.php"><img id="paysafe" src="paysafe.png"/></a></section>
+      <img id="targeta" src="targeta.png">
+      <img id="paysafe" src="paysafe.png">
+      <h11><b>Seleccioni un metode de pagament:</b></h11>
     </div>
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
+
+    <div class="paypal-warp hide-content">
+      <img class="Paypal-window" src="Paypal-screen.png" />
+
+      <div class="correu">
+        <P>Correu: <INPUT id="capcha">
+      </div>
+
+      <div class="constrasenya">
+        <P>Contrasenya: <INPUT id="capcha2">
+      </div>
+      <div class="iniciar-sesio-pagar"> Iniciar sessió i pagar</div>
+
+      <div class="creu">
+        <svg height="100" width="100">
+          <path d="M25 75 L75 25 M75 75 L25 25" stroke="white" stroke-width="4" stroke-       linecap="round"/>
+        </svg>
+      </div>
+    </div>
   </body>
 </html>
 <?php include("footer.php") ?>
