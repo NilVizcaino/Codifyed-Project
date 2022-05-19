@@ -49,6 +49,10 @@
 
     <style>
 
+    .logo{
+      top:35px;
+    }
+
     #cistella{
       position: absolute;
       top:10%;
@@ -122,5 +126,5 @@
 
     </div>
     </nav>
-    <img class="logo" src="logo.svg"/>
+    <section><a href="index_user.php"><img class="logo" src="logo.svg"/></a></section>
   </header>

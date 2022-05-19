@@ -2,7 +2,7 @@
 
 <style>
 
-#horari{
+#horari1{
   position:absolute;
   display: block;
   height: 400px;
@@ -20,7 +20,7 @@
 
 <body>
 
-  <img id="horari" src="horari.png"/>
+  <img id="horari1" src="horari.png"/>
 
   <div id="a"></div>
 

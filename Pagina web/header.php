@@ -23,6 +23,15 @@
       });
 
     </script>
+
+    <style>
+
+    .logo{
+      top:50px;
+    }
+
+    </style>
+    
   </head>
 <body>
   <a name="capçalera"></a>
@@ -48,5 +57,7 @@
 
     </div>
     </nav>
-    <img class="logo" src="logo.svg"/>
+    <section><a href="index.php"><img class="logo" src="logo.svg"/></a></section>
+
+
   </header>
