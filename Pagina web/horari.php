@@ -8,7 +8,7 @@
   height: 400px;
   width: 1200px;
   top: 200px;
-  left: 200px;
+  left: 150px;
 }
 
 #a{
