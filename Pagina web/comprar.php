@@ -93,32 +93,31 @@
     }
 
     #paypal{
-      display: block;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      top: 725px;
-      left:500px;
-      cursor:pointer;
-    }
+         display: block;
+         position: absolute;
+         width: 50px;
+         height: 50px;
+         top: 725px;
+         left:500px;
+       }
 
     #targeta{
-      display: block;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      top: 725px;
-      left:560px;
-    }
+         display: block;
+         position: absolute;
+         width: 50px;
+         height: 50px;
+         top: 150px;
+         left:560px;
+       }
 
     #paysafe{
-      display: block;
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      top: 712px;
-      left:620px;
-    }
+         display: block;
+         position: absolute;
+         width: 80px;
+         height: 80px;
+         top: 140px;
+         left:390px;
+       }
 
     h11{
       display: block;
@@ -158,7 +157,7 @@
       width: 130vh;
       transform:translate(-50%, -50%);
       left:50vw;
-      top:50vh;
+      top:-50vh;
       opacity: 1;
       transition:all 1s ease;
       font-family:"Josefin Sans", sans-serif ;
@@ -272,13 +271,13 @@
         <div id="Titol_Producte"><b>CONCEPTRONIC</b></div>
         <div id="Preu_Producte"><b>200€</b></div>
       </div>
-      <img id="paypal" src="paypal.png">
-      <img id="targeta" src="targeta.png">
-      <img id="paysafe" src="paysafe.png">
       <h11><b>Seleccioni un metode de pagament:</b></h11>
+      <img id="paypal" src="paypal.png">
+      <section><a href="targeta.php"><img id="targeta" src="targeta.png"/></a></section>
+      <section><a href="paysafe.php"><img id="paysafe" src="paysafe.png"/></a></section>
     </div>
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
-
+    <?php include("footer.php") ?>
     <div class="paypal-warp hide-content">
       <img class="Paypal-window" src="Paypal-screen.png" />
 
@@ -299,4 +298,3 @@
     </div>
   </body>
 </html>
-<?php include("footer.php") ?>
