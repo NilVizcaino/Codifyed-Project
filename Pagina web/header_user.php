@@ -103,6 +103,7 @@
       <button id="inici"><b><a href="index_user.php" style="color:white">Inici</a></b></button>
       <button id="qui"><a href="qui_som.php" style="color:white"><b>Qui Som?</b></a></button>
         <button id="on_som"><a href="https://www.google.es/maps/@41.4035359,2.1371051,3a,75y,235.03h,85.64t/data=!3m6!1e1!3m4!1sN78Dgf8D7IZYmqCls0DaWQ!2e0!7i16384!8i8192?hl=es" style="color:white"><b>On Som?</b></a></button>
+        <button id="horari"><a href="horari.php" style="color:white"><b>Horaris</b></a></button>
     </div>
 
     <div class="content-user-menu hide-user-content">
