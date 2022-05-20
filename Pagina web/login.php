@@ -41,6 +41,7 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
   <div id=caixa>
     <P>Correu:    <INPUT id="seis" type="text" name="correu">
     <P>Contrasenya: <INPUT id="siete" type="password" name="password">
+    <div id="oblidar"><a href="oblidar_contra.php"><P>Has oblidat el nom d'usuari o contrasenya?</p></a></div>
     <p><INPUT type="submit" value="Acceder"></p>
   </div>
 </FORM>
