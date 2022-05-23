@@ -11,16 +11,16 @@
       $(document).ready(function(){
 
         $("#paypal").click(function(){
-          $(".paypal-warp").toggleClass("show-content")
-          $(".paypal-warp").toggleClass("hide-content");
+          $(".paypal-warp").toggleClass("show-content1")
+          $(".paypal-warp").toggleClass("hide-content1");
         });
         $(".creu").click(function(){
-          $(".paypal-warp").toggleClass("show-content")
-          $(".paypal-warp").toggleClass("hide-content");
+          $(".paypal-warp").toggleClass("show-content1")
+          $(".paypal-warp").toggleClass("hide-content1");
         });
         $(".iniciar-sesio-pagar").click(function(){
-          $(".paypal-warp").toggleClass("show-content")
-          $(".paypal-warp").toggleClass("hide-content");
+          $(".paypal-warp").toggleClass("show-content1")
+          $(".paypal-warp").toggleClass("hide-content1");
         });
       });
 
@@ -165,13 +165,13 @@
       transition:all 250ms ease;
     }
 
-    .show-content{
+    .show-content1{
       left:50vw;
       top:50vh;
       opacity: 1;
     }
 
-    .hide-content{
+    .hide-content1{
       left:50vw;
       top:-50vh;
       opacity: 0;
@@ -286,7 +286,7 @@
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
     <?php include("footer.php") ?>
 
-    <div class="paypal-warp hide-content">
+    <div class="paypal-warp hide-content1">
       <img class="Paypal-window" src="Paypal-screen.png" />
 
       <div class="correu">
