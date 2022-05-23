@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>comprar</title>
-    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <link rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="jquery-ui.min.js"></script>
     <script type="text/javascript">
@@ -27,7 +27,7 @@
     </script>
 
     <style>
-    #wrapp{
+    #wrapp1{
       display:grid;
       position:relative;
       width:50vw;
@@ -267,7 +267,7 @@
     </style>
   </head>
   <body>
-    <div id="wrapp">
+    <div id="wrapp1">
       <div id="foto-content-antivirus"><img id="foto" src="codex.png"/></div>
       <div id="contenido">
         <div id="Titol_Producte"><b>CODEX</b></div>
