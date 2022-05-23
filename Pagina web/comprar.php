@@ -119,15 +119,6 @@
          left:560px;
        }
 
-    #paysafe{
-         display: block;
-         position: absolute;
-         width: 80px;
-         height: 80px;
-         top: 140px;
-         left:390px;
-       }
-
     h11{
       display: block;
       position: absolute;
@@ -291,7 +282,6 @@
       <h11><b>Seleccioni un metode de pagament:</b></h11>
       <img id="paypal" src="paypal.png">
       <section><a href="targeta.php"><img id="targeta" src="targeta.png"/></a></section>
-      <section><a href="paysafe.php"><img id="paysafe" src="paysafe.png"/></a></section>
     </div>
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
     <?php include("footer.php") ?>
