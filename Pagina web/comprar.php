@@ -14,17 +14,25 @@
           $(".paypal-warp").toggleClass("show-content")
           $(".paypal-warp").toggleClass("hide-content");
         });
+        $(".creu").click(function(){
+          $(".paypal-warp").toggleClass("show-content")
+          $(".paypal-warp").toggleClass("hide-content");
+        });
+        $(".iniciar-sesio-pagar").click(function(){
+          $(".paypal-warp").toggleClass("show-content")
+          $(".paypal-warp").toggleClass("hide-content");
+        });
       });
 
     </script>
 
     <style>
-    div#wrapp{
+    #wrapp{
       display:grid;
       position:relative;
       width:50vw;
       height:600px;
-      margin:0px auto 200px auto;
+      margin:10px auto 200px auto;
       background-color: var(--blau_cel);
       grid-template-columns: 30% calc(70% - 10px);
       grid-column-gap:10px;
@@ -98,6 +106,7 @@
          width: 50px;
          height: 50px;
          top: 725px;
+         cursor: pointer;
          left:500px;
        }
 
@@ -158,7 +167,7 @@
       transform:translate(-50%, -50%);
       left:50vw;
       top:-50vh;
-      opacity: 1;
+      opacity: 0;
       transition:all 1s ease;
       font-family:"Josefin Sans", sans-serif ;
       font-size: 1.7rem;
@@ -166,7 +175,15 @@
     }
 
     .show-content{
+      left:50vw;
+      top:50vh;
       opacity: 1;
+    }
+
+    .hide-content{
+      left:50vw;
+      top:-50vh;
+      opacity: 0;
     }
 
     .correu{
@@ -278,6 +295,7 @@
     </div>
     <div id="wrapp-total-prize"><b>TOTAL 215€</b></div>
     <?php include("footer.php") ?>
+
     <div class="paypal-warp hide-content">
       <img class="Paypal-window" src="Paypal-screen.png" />
 

@@ -5,10 +5,11 @@
 #horari1{
   position:absolute;
   display: block;
-  height: 400px;
+  height: 300px;
   width: 1200px;
-  top: 200px;
-  left: 150px;
+  transform:translate(-50%, -50%);
+  left:50vw;
+  top:50vh;
 }
 
 #a{
