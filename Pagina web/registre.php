@@ -20,6 +20,33 @@ div#caixa2{
     font-size: 1.7rem;
   }
 
+  #loging_incorrecte{
+    font-family:"Josefin Sans", sans-serif ;
+    font-size: 1.7rem;
+    color: red;
+    height: 80px;
+    width: 400px;
+    transform:translate(-50%, -50%);
+    left:50vw;
+    top:3vh;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation:error-spawn 1s ease;}
+
+   @keyframes error-spawn{
+     0%{filter:blur(100px); height: 0px;}
+
+     25%{left:50vw;}
+
+     50%{left:50vw;}
+
+     75%{left:50vw; filter:blur(0px)}
+
+     100%{left:50vw; height: 80px;}}
+
 </style>
 </head>
 
@@ -59,7 +86,7 @@ if (isset($_GET["correu"]))
       header("Location: index.php");
     }
     else
-    echo "<alert>Les contasenyes no coincideixen";
+    echo "<div id=loging_incorrecte>Les contrasenyes no coincideixen</div>";
 }
 ?>
 
