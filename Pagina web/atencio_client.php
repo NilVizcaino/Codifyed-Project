@@ -8,7 +8,7 @@
   left: 75px;
 }
 
-section{
+section#section_one{
   display:grid;
   position:relative;
   width:480px;
@@ -104,7 +104,7 @@ a {
 
 <div id="titol_atencio"><h6>Atenció al client</h6></div>
 
-<section>
+<section id="section_one">
   <article><b>Contacta amb nosaltres telèfon: <p>927 396 223</p></b></article>
   <article><b>Contacta amb nosaltres correu: CStaffSuport@service.com</b></article>
 </section>
@@ -123,13 +123,6 @@ a {
     <input name="submitmsg" type="submit"  id="submitmsg" value="Envia" />
 </form>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-<script type="text/javascript">
-// jQuery Document
-$(document).ready(function(){
-
-});
-</script>
 </div>
 
 
