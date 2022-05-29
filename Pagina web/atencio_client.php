@@ -14,7 +14,7 @@ section#section_one{
   width:480px;
   height:350px;
   transform:translate(10%, -33%);
-  margin-top:40vh;
+  margin-top:32vh;
   margin-left:50vw;
   grid-template-rows: 1fr 1fr;
 }
