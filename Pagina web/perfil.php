@@ -179,7 +179,7 @@
 
 <body>
 
-  <h1>Salle1</h1>
+  <h1>Nil</h1>
 
   <img id="perfil_nom" src="profile.svg"/>
 
