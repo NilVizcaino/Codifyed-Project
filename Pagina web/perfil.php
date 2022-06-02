@@ -188,7 +188,7 @@
   </div>
 
   <div id="editar_nom">
-    Salle1
+    Nil
   </div>
   <img id="editar" src="edit.png"/>
 
@@ -197,7 +197,7 @@
   </div>
 
   <div id="editar_correu">
-    salle1@gmail.com
+    nilvizcaino@gmail.com
   </div>
   <img id="editar2" src="edit.png"/>
 
